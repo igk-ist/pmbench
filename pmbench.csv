@@ -1,4 +1,4 @@
-pool,threads,size,working_set,rw_ratio,latency,latency_diviation,offset,pattern,mode
+pool,threads,size,working_set,rw_ratio,ltnc,ltnc_d,offset,pattern,mode
 fsdax,1,256,128,0,181,0.00,uniform,random,App
 ram_l,1,256,128,0,32,0.00,uniform,random,App
 pm_l,1,256,128,0,38,0.00,uniform,random,App

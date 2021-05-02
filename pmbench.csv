@@ -1,571 +1,863 @@
-pool,threads,size,working_set,rw_ratio,ltnc,ltnc_d,offset,pattern,mode
-fsdax,1,256,128,0,181,0.00,uniform,random,App
-ram_l,1,256,128,0,32,0.00,uniform,random,App
-pm_l,1,256,128,0,38,0.00,uniform,random,App
-ram_r,1,256,128,0,179,0.00,uniform,random,App
-pm_r,1,256,128,0,274,0.00,uniform,random,App
-fsdax,1,256,128,33,217,0.00,uniform,random,App
-ram_l,1,256,128,33,58,0.00,uniform,random,App
-pm_l,1,256,128,33,75,0.00,uniform,random,App
-ram_r,1,256,128,33,215,0.00,uniform,random,App
-pm_r,1,256,128,33,302,0.00,uniform,random,App
-fsdax,1,256,128,50,246,0.00,uniform,random,App
-ram_l,1,256,128,50,70,0.00,uniform,random,App
-pm_l,1,256,128,50,95,0.00,uniform,random,App
-ram_r,1,256,128,50,244,0.00,uniform,random,App
-pm_r,1,256,128,50,333,0.00,uniform,random,App
-fsdax,1,256,128,66,278,0.00,uniform,random,App
-ram_l,1,256,128,66,80,0.00,uniform,random,App
-pm_l,1,256,128,66,112,0.00,uniform,random,App
-ram_r,1,256,128,66,274,0.00,uniform,random,App
-pm_r,1,256,128,66,365,0.00,uniform,random,App
-fsdax,1,256,128,100,354,0.00,uniform,random,App
-ram_l,1,256,128,100,39,0.00,uniform,random,App
-pm_l,1,256,128,100,39,0.00,uniform,random,App
-ram_r,1,256,128,100,39,0.00,uniform,random,App
-pm_r,1,256,128,100,39,0.00,uniform,random,App
-fsdax,2,256,128,0,276,0.05,uniform,random,App
-ram_l,2,256,128,0,34,0.05,uniform,random,App
-pm_l,2,256,128,0,40,0.00,uniform,random,App
-ram_r,2,256,128,0,277,0.00,uniform,random,App
-pm_r,2,256,128,0,519,0.35,uniform,random,App
-fsdax,2,256,128,33,277,0.00,uniform,random,App
-ram_l,2,256,128,33,60,0.05,uniform,random,App
-pm_l,2,256,128,33,77,0.20,uniform,random,App
-ram_r,2,256,128,33,275,0.10,uniform,random,App
-pm_r,2,256,128,33,429,0.10,uniform,random,App
-fsdax,2,256,128,50,291,0.05,uniform,random,App
-ram_l,2,256,128,50,73,0.05,uniform,random,App
-pm_l,2,256,128,50,97,0.30,uniform,random,App
-ram_r,2,256,128,50,288,0.05,uniform,random,App
-pm_r,2,256,128,50,438,0.20,uniform,random,App
-fsdax,2,256,128,66,309,0.05,uniform,random,App
-ram_l,2,256,128,66,82,0.15,uniform,random,App
-pm_l,2,256,128,66,114,0.30,uniform,random,App
-ram_r,2,256,128,66,306,0.05,uniform,random,App
-pm_r,2,256,128,66,447,0.35,uniform,random,App
-fsdax,2,256,128,100,360,0.15,uniform,random,App
-ram_l,2,256,128,100,40,0.05,uniform,random,App
-pm_l,2,256,128,100,40,0.00,uniform,random,App
-ram_r,2,256,128,100,40,0.00,uniform,random,App
-pm_r,2,256,128,100,41,0.00,uniform,random,App
-fsdax,4,256,128,0,522,1.03,uniform,random,App
-ram_l,4,256,128,0,35,0.04,uniform,random,App
-pm_l,4,256,128,0,45,0.25,uniform,random,App
-ram_r,4,256,128,0,521,0.78,uniform,random,App
-pm_r,4,256,128,0,1126,2.78,uniform,random,App
-fsdax,4,256,128,33,408,0.21,uniform,random,App
-ram_l,4,256,128,33,61,0.12,uniform,random,App
-pm_l,4,256,128,33,80,0.17,uniform,random,App
-ram_r,4,256,128,33,409,0.18,uniform,random,App
-pm_r,4,256,128,33,795,0.68,uniform,random,App
-fsdax,4,256,128,50,385,0.27,uniform,random,App
-ram_l,4,256,128,50,74,0.23,uniform,random,App
-pm_l,4,256,128,50,99,0.25,uniform,random,App
-ram_r,4,256,128,50,384,0.29,uniform,random,App
-pm_r,4,256,128,50,691,0.24,uniform,random,App
-fsdax,4,256,128,66,374,0.27,uniform,random,App
-ram_l,4,256,128,66,84,0.24,uniform,random,App
-pm_l,4,256,128,66,115,0.37,uniform,random,App
-ram_r,4,256,128,66,370,1.13,uniform,random,App
-pm_r,4,256,128,66,628,1.66,uniform,random,App
-fsdax,4,256,128,100,366,1.28,uniform,random,App
-ram_l,4,256,128,100,42,0.17,uniform,random,App
-pm_l,4,256,128,100,42,0.12,uniform,random,App
-ram_r,4,256,128,100,41,0.17,uniform,random,App
-pm_r,4,256,128,100,41,0.17,uniform,random,App
-fsdax,8,256,128,0,1031,14.44,uniform,random,App
-ram_l,8,256,128,0,42,0.10,uniform,random,App
-pm_l,8,256,128,0,60,0.11,uniform,random,App
-ram_r,8,256,128,0,1009,18.13,uniform,random,App
-pm_r,8,256,128,0,2390,6.05,uniform,random,App
-fsdax,8,256,128,33,788,3.78,uniform,random,App
-ram_l,8,256,128,33,68,0.42,uniform,random,App
-pm_l,8,256,128,33,84,0.38,uniform,random,App
-ram_r,8,256,128,33,774,4.78,uniform,random,App
-pm_r,8,256,128,33,1794,2.01,uniform,random,App
-fsdax,8,256,128,50,645,0.84,uniform,random,App
-ram_l,8,256,128,50,80,0.67,uniform,random,App
-pm_l,8,256,128,50,104,0.65,uniform,random,App
-ram_r,8,256,128,50,643,0.73,uniform,random,App
-pm_r,8,256,128,50,1489,36.58,uniform,random,App
-fsdax,8,256,128,66,534,1.13,uniform,random,App
-ram_l,8,256,128,66,89,0.91,uniform,random,App
-pm_l,8,256,128,66,122,0.87,uniform,random,App
-ram_r,8,256,128,66,533,1.13,uniform,random,App
-pm_r,8,256,128,66,1176,1.43,uniform,random,App
-fsdax,8,256,128,100,386,1.05,uniform,random,App
-ram_l,8,256,128,100,45,0.23,uniform,random,App
-pm_l,8,256,128,100,46,0.23,uniform,random,App
-ram_r,8,256,128,100,45,0.22,uniform,random,App
-pm_r,8,256,128,100,46,0.21,uniform,random,App
-fsdax,16,256,128,0,1938,219.42,uniform,random,App
-ram_l,16,256,128,0,60,0.18,uniform,random,App
-pm_l,16,256,128,0,96,0.31,uniform,random,App
-ram_r,16,256,128,0,1890,193.71,uniform,random,App
-pm_r,16,256,128,0,4819,193.54,uniform,random,App
-fsdax,16,256,128,33,1526,135.34,uniform,random,App
-ram_l,16,256,128,33,77,0.40,uniform,random,App
-pm_l,16,256,128,33,103,0.44,uniform,random,App
-ram_r,16,256,128,33,1477,112.81,uniform,random,App
-pm_r,16,256,128,33,3814,91.69,uniform,random,App
-fsdax,16,256,128,50,1296,47.66,uniform,random,App
-ram_l,16,256,128,50,89,0.55,uniform,random,App
-pm_l,16,256,128,50,118,1.23,uniform,random,App
-ram_r,16,256,128,50,1237,44.29,uniform,random,App
-pm_r,16,256,128,50,3280,66.75,uniform,random,App
-fsdax,16,256,128,66,1049,2.89,uniform,random,App
-ram_l,16,256,128,66,98,0.73,uniform,random,App
-pm_l,16,256,128,66,131,0.77,uniform,random,App
-ram_r,16,256,128,66,1021,5.11,uniform,random,App
-pm_r,16,256,128,66,2658,39.22,uniform,random,App
-fsdax,16,256,128,100,450,1.04,uniform,random,App
-ram_l,16,256,128,100,51,0.30,uniform,random,App
-pm_l,16,256,128,100,51,0.38,uniform,random,App
-ram_r,16,256,128,100,51,0.27,uniform,random,App
-pm_r,16,256,128,100,51,0.32,uniform,random,App
-fsdax,32,256,128,0,3794,255.55,uniform,random,App
-ram_l,32,256,128,0,113,4.22,uniform,random,App
-pm_l,32,256,128,0,212,0.80,uniform,random,App
-ram_r,32,256,128,0,3753,222.65,uniform,random,App
-pm_r,32,256,128,0,9912,170.03,uniform,random,App
-fsdax,32,256,128,33,2958,191.58,uniform,random,App
-ram_l,32,256,128,33,111,1.26,uniform,random,App
-pm_l,32,256,128,33,174,0.76,uniform,random,App
-ram_r,32,256,128,33,2951,179.33,uniform,random,App
-pm_r,32,256,128,33,7915,147.92,uniform,random,App
-fsdax,32,256,128,50,2494,141.12,uniform,random,App
-ram_l,32,256,128,50,113,1.09,uniform,random,App
-pm_l,32,256,128,50,176,0.90,uniform,random,App
-ram_r,32,256,128,50,2489,132.61,uniform,random,App
-pm_r,32,256,128,50,6999,125.16,uniform,random,App
-fsdax,32,256,128,66,2161,13.58,uniform,random,App
-ram_l,32,256,128,66,117,0.83,uniform,random,App
-pm_l,32,256,128,66,174,1.17,uniform,random,App
-ram_r,32,256,128,66,2139,14.81,uniform,random,App
-pm_r,32,256,128,66,5746,91.15,uniform,random,App
-fsdax,32,256,128,100,854,1.18,uniform,random,App
-ram_l,32,256,128,100,63,0.68,uniform,random,App
-pm_l,32,256,128,100,63,0.73,uniform,random,App
-ram_r,32,256,128,100,63,0.61,uniform,random,App
-pm_r,32,256,128,100,63,0.82,uniform,random,App
-ram_r,8,256,128,00,1149,7.24,uniform,offset(0),App
-ram_r,8,256,128,50,746,1.40,uniform,offset(0),App
-ram_r,8,256,128,100,46,0.21,uniform,offset(0),App
-ram_r,8,256,128,00,1012,17.67,uniform,random,App
-ram_r,8,256,128,50,640,0.77,uniform,random,App
-ram_r,8,256,128,100,45,0.21,uniform,random,App
-ram_r,8,256,128,00,1118,237.16,uniform,offset(67),App
-ram_r,8,256,128,50,677,6.99,uniform,offset(67),App
-ram_r,8,256,128,100,45,0.20,uniform,offset(67),App
-ram_r,8,256,128,00,1151,221.00,uniform,offset(128),App
-ram_r,8,256,128,50,693,11.06,uniform,offset(128),App
-ram_r,8,256,128,100,46,0.23,uniform,offset(128),App
-ram_r,8,256,128,00,1276,48.29,thread_linear,offset(0),App
-ram_r,8,256,128,50,790,27.16,thread_linear,offset(0),App
-ram_r,8,256,128,100,52,0.41,thread_linear,offset(0),App
-ram_r,8,256,128,00,1027,19.51,thread_linear,random,App
-ram_r,8,256,128,50,651,1.37,thread_linear,random,App
-ram_r,8,256,128,100,48,0.25,thread_linear,random,App
-ram_r,8,256,128,00,1530,862.44,thread_linear,offset(67),App
-ram_r,8,256,128,50,730,44.31,thread_linear,offset(67),App
-ram_r,8,256,128,100,54,0.43,thread_linear,offset(67),App
-ram_r,8,256,128,00,1686,1041.60,thread_linear,offset(128),App
-ram_r,8,256,128,50,767,54.34,thread_linear,offset(128),App
-ram_r,8,256,128,100,56,7.53,thread_linear,offset(128),App
-ram_l,1,256,128,0,32,0.00,uniform,random,Mem100
-ram_l,1,256,128,33,58,0.00,uniform,random,Mem100
-ram_l,1,256,128,50,70,0.00,uniform,random,Mem100
-ram_l,1,256,128,66,80,0.00,uniform,random,Mem100
-ram_l,1,256,128,100,39,0.00,uniform,random,Mem100
-ram_l,2,256,128,0,33,0.05,uniform,random,Mem100
-ram_l,2,256,128,33,59,0.15,uniform,random,Mem100
-ram_l,2,256,128,50,74,0.10,uniform,random,Mem100
-ram_l,2,256,128,66,83,0.15,uniform,random,Mem100
-ram_l,2,256,128,100,40,0.00,uniform,random,Mem100
-ram_l,4,256,128,0,35,0.04,uniform,random,Mem100
-ram_l,4,256,128,33,61,0.15,uniform,random,Mem100
-ram_l,4,256,128,50,73,0.11,uniform,random,Mem100
-ram_l,4,256,128,66,84,0.27,uniform,random,Mem100
-ram_l,4,256,128,100,41,0.35,uniform,random,Mem100
-ram_l,8,256,128,0,43,0.08,uniform,random,Mem100
-ram_l,8,256,128,33,65,0.41,uniform,random,Mem100
-ram_l,8,256,128,50,80,0.60,uniform,random,Mem100
-ram_l,8,256,128,66,90,0.78,uniform,random,Mem100
-ram_l,8,256,128,100,46,0.35,uniform,random,Mem100
-ram_l,16,256,128,0,60,0.19,uniform,random,Mem100
-ram_l,16,256,128,33,77,0.36,uniform,random,Mem100
-ram_l,16,256,128,50,89,0.67,uniform,random,Mem100
-ram_l,16,256,128,66,98,0.83,uniform,random,Mem100
-ram_l,16,256,128,100,51,0.36,uniform,random,Mem100
-ram_l,32,256,128,0,116,0.84,uniform,random,Mem100
-ram_l,32,256,128,33,111,0.67,uniform,random,Mem100
-ram_l,32,256,128,50,113,0.90,uniform,random,Mem100
-ram_l,32,256,128,66,117,0.95,uniform,random,Mem100
-ram_l,32,256,128,100,62,0.83,uniform,random,Mem100
-ram_l,1,2048,1024,0,32,0.00,uniform,random,Mem100
-ram_l,1,2048,1024,33,61,0.00,uniform,random,Mem100
-ram_l,1,2048,1024,50,76,0.00,uniform,random,Mem100
-ram_l,1,2048,1024,66,88,0.00,uniform,random,Mem100
-ram_l,1,2048,1024,100,40,0.00,uniform,random,Mem100
-ram_l,2,2048,1024,0,33,0.00,uniform,random,Mem100
-ram_l,2,2048,1024,33,63,0.05,uniform,random,Mem100
-ram_l,2,2048,1024,50,77,0.20,uniform,random,Mem100
-ram_l,2,2048,1024,66,90,0.10,uniform,random,Mem100
-ram_l,2,2048,1024,100,41,0.15,uniform,random,Mem100
-ram_l,4,2048,1024,0,36,0.04,uniform,random,Mem100
-ram_l,4,2048,1024,33,66,0.21,uniform,random,Mem100
-ram_l,4,2048,1024,50,82,0.27,uniform,random,Mem100
-ram_l,4,2048,1024,66,93,0.33,uniform,random,Mem100
-ram_l,4,2048,1024,100,42,0.19,uniform,random,Mem100
-ram_l,8,2048,1024,0,45,0.24,uniform,random,Mem100
-ram_l,8,2048,1024,33,72,0.51,uniform,random,Mem100
-ram_l,8,2048,1024,50,89,0.75,uniform,random,Mem100
-ram_l,8,2048,1024,66,100,1.04,uniform,random,Mem100
-ram_l,8,2048,1024,100,42,0.37,uniform,random,Mem100
-ram_l,16,2048,1024,0,78,0.20,uniform,random,Mem100
-ram_l,16,2048,1024,33,88,0.93,uniform,random,Mem100
-ram_l,16,2048,1024,50,100,1.40,uniform,random,Mem100
-ram_l,16,2048,1024,66,111,1.05,uniform,random,Mem100
-ram_l,16,2048,1024,100,52,0.58,uniform,random,Mem100
-ram_l,32,2048,1024,0,152,0.86,uniform,random,Mem100
-ram_l,32,2048,1024,33,140,0.85,uniform,random,Mem100
-ram_l,32,2048,1024,50,134,1.06,uniform,random,Mem100
-ram_l,32,2048,1024,66,136,1.09,uniform,random,Mem100
-ram_l,32,2048,1024,100,64,0.65,uniform,random,Mem100
-ram_l,1,16384,8192,0,50,0.00,uniform,random,Mem100
-ram_l,1,16384,8192,33,66,0.00,uniform,random,Mem100
-ram_l,1,16384,8192,50,81,0.00,uniform,random,Mem100
-ram_l,1,16384,8192,66,94,0.00,uniform,random,Mem100
-ram_l,1,16384,8192,100,43,0.00,uniform,random,Mem100
-ram_l,2,16384,8192,0,38,0.00,uniform,random,Mem100
-ram_l,2,16384,8192,33,68,0.10,uniform,random,Mem100
-ram_l,2,16384,8192,50,83,0.15,uniform,random,Mem100
-ram_l,2,16384,8192,66,97,0.20,uniform,random,Mem100
-ram_l,2,16384,8192,100,44,0.05,uniform,random,Mem100
-ram_l,4,16384,8192,0,40,0.00,uniform,random,Mem100
-ram_l,4,16384,8192,33,70,0.21,uniform,random,Mem100
-ram_l,4,16384,8192,50,85,0.81,uniform,random,Mem100
-ram_l,4,16384,8192,66,97,0.35,uniform,random,Mem100
-ram_l,4,16384,8192,100,45,0.31,uniform,random,Mem100
-ram_l,8,16384,8192,0,48,0.28,uniform,random,Mem100
-ram_l,8,16384,8192,33,74,0.50,uniform,random,Mem100
-ram_l,8,16384,8192,50,93,0.81,uniform,random,Mem100
-ram_l,8,16384,8192,66,100,1.07,uniform,random,Mem100
-ram_l,8,16384,8192,100,52,0.34,uniform,random,Mem100
-ram_l,16,16384,8192,0,81,0.28,uniform,random,Mem100
-ram_l,16,16384,8192,33,93,0.52,uniform,random,Mem100
-ram_l,16,16384,8192,50,106,0.83,uniform,random,Mem100
-ram_l,16,16384,8192,66,117,1.08,uniform,random,Mem100
-ram_l,16,16384,8192,100,57,0.32,uniform,random,Mem100
-ram_l,32,16384,8192,0,158,0.73,uniform,random,Mem100
-ram_l,32,16384,8192,33,145,0.75,uniform,random,Mem100
-ram_l,32,16384,8192,50,140,0.93,uniform,random,Mem100
-ram_l,32,16384,8192,66,142,1.30,uniform,random,Mem100
-ram_l,32,16384,8192,100,68,0.77,uniform,random,Mem100
-ram_l,1,32768,16384,0,38,0.00,uniform,random,Mem100
-ram_l,1,32768,16384,33,68,0.00,uniform,random,Mem100
-ram_l,1,32768,16384,50,83,0.00,uniform,random,Mem100
-ram_l,1,32768,16384,66,94,0.00,uniform,random,Mem100
-ram_l,1,32768,16384,100,45,0.00,uniform,random,Mem100
-ram_l,2,32768,16384,0,40,0.00,uniform,random,Mem100
-ram_l,2,32768,16384,33,70,0.10,uniform,random,Mem100
-ram_l,2,32768,16384,50,88,0.15,uniform,random,Mem100
-ram_l,2,32768,16384,66,96,0.15,uniform,random,Mem100
-ram_l,2,32768,16384,100,47,0.00,uniform,random,Mem100
-ram_l,4,32768,16384,0,42,0.08,uniform,random,Mem100
-ram_l,4,32768,16384,33,72,0.55,uniform,random,Mem100
-ram_l,4,32768,16384,50,86,0.79,uniform,random,Mem100
-ram_l,4,32768,16384,66,101,1.12,uniform,random,Mem100
-ram_l,4,32768,16384,100,47,0.39,uniform,random,Mem100
-ram_l,8,32768,16384,0,51,0.12,uniform,random,Mem100
-ram_l,8,32768,16384,33,75,0.50,uniform,random,Mem100
-ram_l,8,32768,16384,50,96,0.86,uniform,random,Mem100
-ram_l,8,32768,16384,66,102,1.02,uniform,random,Mem100
-ram_l,8,32768,16384,100,48,0.43,uniform,random,Mem100
-ram_l,16,32768,16384,0,82,0.26,uniform,random,Mem100
-ram_l,16,32768,16384,33,95,0.49,uniform,random,Mem100
-ram_l,16,32768,16384,50,108,0.81,uniform,random,Mem100
-ram_l,16,32768,16384,66,119,1.04,uniform,random,Mem100
-ram_l,16,32768,16384,100,60,0.33,uniform,random,Mem100
-ram_l,32,32768,16384,0,159,0.74,uniform,random,Mem100
-ram_l,32,32768,16384,33,146,1.03,uniform,random,Mem100
-ram_l,32,32768,16384,50,141,0.95,uniform,random,Mem100
-ram_l,32,32768,16384,66,144,1.20,uniform,random,Mem100
-ram_l,32,32768,16384,100,69,2.36,uniform,random,Mem100
-ram_l,1,65536,32768,0,39,0.00,uniform,random,Mem100
-ram_l,1,65536,32768,33,71,0.00,uniform,random,Mem100
-ram_l,1,65536,32768,50,87,0.00,uniform,random,Mem100
-ram_l,1,65536,32768,66,97,0.00,uniform,random,Mem100
-ram_l,1,65536,32768,100,47,0.00,uniform,random,Mem100
-ram_l,2,65536,32768,0,42,0.00,uniform,random,Mem100
-ram_l,2,65536,32768,33,73,0.10,uniform,random,Mem100
-ram_l,2,65536,32768,50,89,0.10,uniform,random,Mem100
-ram_l,2,65536,32768,66,102,0.10,uniform,random,Mem100
-ram_l,2,65536,32768,100,48,0.10,uniform,random,Mem100
-ram_l,4,65536,32768,0,44,0.17,uniform,random,Mem100
-ram_l,4,65536,32768,33,74,0.49,uniform,random,Mem100
-ram_l,4,65536,32768,50,88,0.90,uniform,random,Mem100
-ram_l,4,65536,32768,66,102,1.05,uniform,random,Mem100
-ram_l,4,65536,32768,100,49,0.39,uniform,random,Mem100
-ram_l,8,65536,32768,0,53,0.10,uniform,random,Mem100
-ram_l,8,65536,32768,33,81,0.52,uniform,random,Mem100
-ram_l,8,65536,32768,50,97,1.02,uniform,random,Mem100
-ram_l,8,65536,32768,66,107,1.11,uniform,random,Mem100
-ram_l,8,65536,32768,100,54,0.25,uniform,random,Mem100
-ram_l,16,65536,32768,0,83,0.26,uniform,random,Mem100
-ram_l,16,65536,32768,33,99,0.57,uniform,random,Mem100
-ram_l,16,65536,32768,50,111,0.83,uniform,random,Mem100
-ram_l,16,65536,32768,66,121,1.07,uniform,random,Mem100
-ram_l,16,65536,32768,100,61,0.39,uniform,random,Mem100
-ram_l,32,65536,32768,0,160,0.61,uniform,random,Mem100
-ram_l,32,65536,32768,33,147,0.91,uniform,random,Mem100
-ram_l,32,65536,32768,50,142,1.13,uniform,random,Mem100
-ram_l,32,65536,32768,66,146,1.16,uniform,random,Mem100
-ram_l,32,65536,32768,100,67,5.63,uniform,random,Mem100
-ram_l,1,98304,49152,0,134,0.00,uniform,random,Mem100
-ram_l,1,98304,49152,33,164,0.00,uniform,random,Mem100
-ram_l,1,98304,49152,50,185,0.00,uniform,random,Mem100
-ram_l,1,98304,49152,66,205,0.00,uniform,random,Mem100
-ram_l,1,98304,49152,100,48,0.00,uniform,random,Mem100
-ram_l,2,98304,49152,0,161,0.00,uniform,random,Mem100
-ram_l,2,98304,49152,33,192,0.05,uniform,random,Mem100
-ram_l,2,98304,49152,50,213,0.05,uniform,random,Mem100
-ram_l,2,98304,49152,66,234,0.10,uniform,random,Mem100
-ram_l,2,98304,49152,100,50,0.20,uniform,random,Mem100
-ram_l,4,98304,49152,0,267,0.11,uniform,random,Mem100
-ram_l,4,98304,49152,33,251,0.29,uniform,random,Mem100
-ram_l,4,98304,49152,50,253,0.37,uniform,random,Mem100
-ram_l,4,98304,49152,66,274,1.16,uniform,random,Mem100
-ram_l,4,98304,49152,100,50,0.25,uniform,random,Mem100
-ram_l,8,98304,49152,0,576,0.55,uniform,random,Mem100
-ram_l,8,98304,49152,33,495,0.83,uniform,random,Mem100
-ram_l,8,98304,49152,50,454,1.12,uniform,random,Mem100
-ram_l,8,98304,49152,66,420,1.54,uniform,random,Mem100
-ram_l,8,98304,49152,100,50,0.49,uniform,random,Mem100
-ram_l,16,98304,49152,0,1367,3.73,uniform,random,Mem100
-ram_l,16,98304,49152,33,1088,2.21,uniform,random,Mem100
-ram_l,16,98304,49152,50,902,1.44,uniform,random,Mem100
-ram_l,16,98304,49152,66,767,1.65,uniform,random,Mem100
-ram_l,16,98304,49152,100,62,0.39,uniform,random,Mem100
-ram_l,32,98304,49152,0,2989,16.41,uniform,random,Mem100
-ram_l,32,98304,49152,33,2425,3.48,uniform,random,Mem100
-ram_l,32,98304,49152,50,2034,4.33,uniform,random,Mem100
-ram_l,32,98304,49152,66,1597,2.81,uniform,random,Mem100
-ram_l,32,98304,49152,100,67,5.90,uniform,random,Mem100
-ram_l,6,256,128,0,37,0.05,uniform,random,Mem100
-ram_l,6,256,128,50,75,0.51,uniform,random,Mem100
-ram_l,6,256,128,100,42,0.30,uniform,random,Mem100
-ram_l,10,256,128,0,45,0.14,uniform,random,Mem100
-ram_l,10,256,128,50,82,0.57,uniform,random,Mem100
-ram_l,10,256,128,100,47,0.39,uniform,random,Mem100
-ram_l,12,256,128,0,50,0.06,uniform,random,Mem100
-ram_l,12,256,128,50,87,0.54,uniform,random,Mem100
-ram_l,12,256,128,100,49,0.29,uniform,random,Mem100
-ram_l,14,256,128,0,55,0.15,uniform,random,Mem100
-ram_l,14,256,128,50,88,0.56,uniform,random,Mem100
-ram_l,14,256,128,100,51,0.25,uniform,random,Mem100
-ram_l,18,256,128,0,70,15.53,uniform,random,Mem100
-ram_l,18,256,128,50,92,4.77,uniform,random,Mem100
-ram_l,18,256,128,100,54,5.18,uniform,random,Mem100
-ram_l,20,256,128,0,78,18.35,uniform,random,Mem100
-ram_l,20,256,128,50,95,5.89,uniform,random,Mem100
-ram_l,20,256,128,100,56,5.40,uniform,random,Mem100
-ram_l,22,256,128,0,86,19.35,uniform,random,Mem100
-ram_l,22,256,128,50,99,6.09,uniform,random,Mem100
-ram_l,22,256,128,100,57,5.53,uniform,random,Mem100
-ram_l,24,256,128,0,93,18.92,uniform,random,Mem100
-ram_l,24,256,128,50,102,6.08,uniform,random,Mem100
-ram_l,24,256,128,100,59,5.40,uniform,random,Mem100
-ram_l,26,256,128,0,100,17.23,uniform,random,Mem100
-ram_l,26,256,128,50,105,5.24,uniform,random,Mem100
-ram_l,26,256,128,100,60,4.74,uniform,random,Mem100
-ram_l,28,256,128,0,106,14.62,uniform,random,Mem100
-ram_l,28,256,128,50,108,4.68,uniform,random,Mem100
-ram_l,28,256,128,100,61,3.98,uniform,random,Mem100
-ram_l,32,256,128,0,117,0.68,uniform,random,Mem100
-ram_l,32,256,128,50,113,0.87,uniform,random,Mem100
-ram_l,32,256,128,100,62,0.83,uniform,random,Mem100
-ram_l,34,256,128,0,125,9.00,uniform,random,Mem100
-ram_l,34,256,128,50,122,11.41,uniform,random,Mem100
-ram_l,34,256,128,100,68,6.97,uniform,random,Mem100
-ram_l,6,2048,1024,0,44,0.11,uniform,random,Mem100
-ram_l,6,2048,1024,50,85,0.70,uniform,random,Mem100
-ram_l,6,2048,1024,100,42,0.32,uniform,random,Mem100
-ram_l,10,2048,1024,0,57,0.14,uniform,random,Mem100
-ram_l,10,2048,1024,50,95,0.74,uniform,random,Mem100
-ram_l,10,2048,1024,100,47,0.34,uniform,random,Mem100
-ram_l,12,2048,1024,0,66,0.10,uniform,random,Mem100
-ram_l,12,2048,1024,50,100,0.73,uniform,random,Mem100
-ram_l,12,2048,1024,100,51,1.02,uniform,random,Mem100
-ram_l,14,2048,1024,0,73,0.17,uniform,random,Mem100
-ram_l,14,2048,1024,50,103,0.70,uniform,random,Mem100
-ram_l,14,2048,1024,100,52,1.16,uniform,random,Mem100
-ram_l,18,2048,1024,0,94,22.79,uniform,random,Mem100
-ram_l,18,2048,1024,50,110,4.88,uniform,random,Mem100
-ram_l,18,2048,1024,100,55,4.93,uniform,random,Mem100
-ram_l,20,2048,1024,0,108,27.36,uniform,random,Mem100
-ram_l,20,2048,1024,50,115,6.36,uniform,random,Mem100
-ram_l,20,2048,1024,100,57,5.21,uniform,random,Mem100
-ram_l,22,2048,1024,0,118,28.59,uniform,random,Mem100
-ram_l,22,2048,1024,50,117,6.66,uniform,random,Mem100
-ram_l,22,2048,1024,100,59,5.54,uniform,random,Mem100
-ram_l,24,2048,1024,0,126,27.26,uniform,random,Mem100
-ram_l,24,2048,1024,50,120,6.56,uniform,random,Mem100
-ram_l,24,2048,1024,100,60,5.07,uniform,random,Mem100
-ram_l,26,2048,1024,0,134,24.83,uniform,random,Mem100
-ram_l,26,2048,1024,50,125,6.06,uniform,random,Mem100
-ram_l,26,2048,1024,100,61,4.63,uniform,random,Mem100
-ram_l,28,2048,1024,0,142,21.12,uniform,random,Mem100
-ram_l,28,2048,1024,50,129,5.25,uniform,random,Mem100
-ram_l,28,2048,1024,100,62,3.74,uniform,random,Mem100
-ram_l,32,2048,1024,0,154,0.92,uniform,random,Mem100
-ram_l,32,2048,1024,50,137,0.87,uniform,random,Mem100
-ram_l,32,2048,1024,100,63,0.83,uniform,random,Mem100
-ram_l,34,2048,1024,0,165,8.86,uniform,random,Mem100
-ram_l,34,2048,1024,50,146,9.90,uniform,random,Mem100
-ram_l,34,2048,1024,100,66,11.77,uniform,random,Mem100
-ram_l,6,16384,8192,0,72,0.10,uniform,random,Mem100
-ram_l,6,16384,8192,50,109,0.67,uniform,random,Mem100
-ram_l,6,16384,8192,100,46,0.33,uniform,random,Mem100
-ram_l,10,16384,8192,0,105,0.19,uniform,random,Mem100
-ram_l,10,16384,8192,50,122,0.73,uniform,random,Mem100
-ram_l,10,16384,8192,100,52,0.30,uniform,random,Mem100
-ram_l,12,16384,8192,0,126,0.34,uniform,random,Mem100
-ram_l,12,16384,8192,50,125,0.80,uniform,random,Mem100
-ram_l,12,16384,8192,100,53,0.31,uniform,random,Mem100
-ram_l,14,16384,8192,0,148,0.43,uniform,random,Mem100
-ram_l,14,16384,8192,50,133,0.74,uniform,random,Mem100
-ram_l,14,16384,8192,100,57,0.39,uniform,random,Mem100
-ram_l,18,16384,8192,0,196,39.05,uniform,random,Mem100
-ram_l,18,16384,8192,50,145,8.46,uniform,random,Mem100
-ram_l,18,16384,8192,100,60,4.69,uniform,random,Mem100
-ram_l,20,16384,8192,0,220,47.29,uniform,random,Mem100
-ram_l,20,16384,8192,50,159,11.04,uniform,random,Mem100
-ram_l,20,16384,8192,100,62,5.55,uniform,random,Mem100
-ram_l,22,16384,8192,0,243,49.24,uniform,random,Mem100
-ram_l,22,16384,8192,50,173,12.52,uniform,random,Mem100
-ram_l,22,16384,8192,100,63,5.45,uniform,random,Mem100
-ram_l,24,16384,8192,0,263,49.18,uniform,random,Mem100
-ram_l,24,16384,8192,50,188,13.92,uniform,random,Mem100
-ram_l,24,16384,8192,100,65,5.31,uniform,random,Mem100
-ram_l,26,16384,8192,0,286,44.61,uniform,random,Mem100
-ram_l,26,16384,8192,50,200,14.53,uniform,random,Mem100
-ram_l,26,16384,8192,100,65,4.50,uniform,random,Mem100
-ram_l,28,16384,8192,0,300,28.09,uniform,random,Mem100
-ram_l,28,16384,8192,50,219,13.30,uniform,random,Mem100
-ram_l,28,16384,8192,100,67,3.97,uniform,random,Mem100
-ram_l,32,16384,8192,0,342,0.89,uniform,random,Mem100
-ram_l,32,16384,8192,50,248,0.92,uniform,random,Mem100
-ram_l,32,16384,8192,100,68,0.86,uniform,random,Mem100
-ram_l,34,16384,8192,0,366,22.88,uniform,random,Mem100
-ram_l,34,16384,8192,50,269,18.80,uniform,random,Mem100
-ram_l,34,16384,8192,100,73,13.09,uniform,random,Mem100
-ram_l,6,32768,16384,0,124,0.12,uniform,random,Mem100
-ram_l,6,32768,16384,50,139,0.68,uniform,random,Mem100
-ram_l,6,32768,16384,100,48,0.33,uniform,random,Mem100
-ram_l,10,32768,16384,0,207,0.52,uniform,random,Mem100
-ram_l,10,32768,16384,50,164,0.76,uniform,random,Mem100
-ram_l,10,32768,16384,100,54,0.36,uniform,random,Mem100
-ram_l,12,32768,16384,0,250,0.65,uniform,random,Mem100
-ram_l,12,32768,16384,50,192,0.89,uniform,random,Mem100
-ram_l,12,32768,16384,100,54,0.39,uniform,random,Mem100
-ram_l,14,32768,16384,0,293,0.66,uniform,random,Mem100
-ram_l,14,32768,16384,50,221,0.89,uniform,random,Mem100
-ram_l,14,32768,16384,100,60,0.33,uniform,random,Mem100
-ram_l,18,32768,16384,0,393,76.85,uniform,random,Mem100
-ram_l,18,32768,16384,50,280,18.13,uniform,random,Mem100
-ram_l,18,32768,16384,100,61,3.65,uniform,random,Mem100
-ram_l,20,32768,16384,0,441,95.54,uniform,random,Mem100
-ram_l,20,32768,16384,50,311,24.10,uniform,random,Mem100
-ram_l,20,32768,16384,100,63,4.71,uniform,random,Mem100
-ram_l,22,32768,16384,0,487,101.04,uniform,random,Mem100
-ram_l,22,32768,16384,50,341,27.01,uniform,random,Mem100
-ram_l,22,32768,16384,100,65,6.18,uniform,random,Mem100
-ram_l,24,32768,16384,0,532,100.78,uniform,random,Mem100
-ram_l,24,32768,16384,50,370,20.95,uniform,random,Mem100
-ram_l,24,32768,16384,100,66,5.04,uniform,random,Mem100
-ram_l,26,32768,16384,0,573,93.72,uniform,random,Mem100
-ram_l,26,32768,16384,50,402,27.78,uniform,random,Mem100
-ram_l,26,32768,16384,100,67,4.38,uniform,random,Mem100
-ram_l,28,32768,16384,0,611,79.99,uniform,random,Mem100
-ram_l,28,32768,16384,50,433,25.62,uniform,random,Mem100
-ram_l,28,32768,16384,100,68,4.10,uniform,random,Mem100
-ram_l,32,32768,16384,0,689,1.35,uniform,random,Mem100
-ram_l,32,32768,16384,50,497,1.29,uniform,random,Mem100
-ram_l,32,32768,16384,100,69,2.67,uniform,random,Mem100
-ram_l,34,32768,16384,0,744,122.96,uniform,random,Mem100
-ram_l,34,32768,16384,50,526,48.92,uniform,random,Mem100
-ram_l,34,32768,16384,100,73,5.52,uniform,random,Mem100
-ram_l,6,65536,32768,0,261,0.11,uniform,random,Mem100
-ram_l,6,65536,32768,50,223,1.13,uniform,random,Mem100
-ram_l,6,65536,32768,100,50,0.32,uniform,random,Mem100
-ram_l,10,65536,32768,0,461,0.39,uniform,random,Mem100
-ram_l,10,65536,32768,50,352,0.98,uniform,random,Mem100
-ram_l,10,65536,32768,100,56,0.36,uniform,random,Mem100
-ram_l,12,65536,32768,0,580,1.89,uniform,random,Mem100
-ram_l,12,65536,32768,50,419,1.15,uniform,random,Mem100
-ram_l,12,65536,32768,100,56,0.33,uniform,random,Mem100
-ram_l,14,65536,32768,0,716,1.95,uniform,random,Mem100
-ram_l,14,65536,32768,50,489,1.21,uniform,random,Mem100
-ram_l,14,65536,32768,100,61,0.39,uniform,random,Mem100
-ram_l,18,65536,32768,0,1017,219.72,uniform,random,Mem100
-ram_l,18,65536,32768,50,626,35.42,uniform,random,Mem100
-ram_l,18,65536,32768,100,63,4.66,uniform,random,Mem100
-ram_l,20,65536,32768,0,1161,275.22,uniform,random,Mem100
-ram_l,20,65536,32768,50,698,45.47,uniform,random,Mem100
-ram_l,20,65536,32768,100,64,5.96,uniform,random,Mem100
-ram_l,22,65536,32768,0,1294,296.94,uniform,random,Mem100
-ram_l,22,65536,32768,50,790,74.85,uniform,random,Mem100
-ram_l,22,65536,32768,100,65,5.94,uniform,random,Mem100
-ram_l,24,65536,32768,0,1419,295.75,uniform,random,Mem100
-ram_l,24,65536,32768,50,871,78.52,uniform,random,Mem100
-ram_l,24,65536,32768,100,66,5.60,uniform,random,Mem100
-ram_l,26,65536,32768,0,1535,276.12,uniform,random,Mem100
-ram_l,26,65536,32768,50,954,77.22,uniform,random,Mem100
-ram_l,26,65536,32768,100,67,5.72,uniform,random,Mem100
-ram_l,28,65536,32768,0,1645,238.22,uniform,random,Mem100
-ram_l,28,65536,32768,50,1044,69.45,uniform,random,Mem100
-ram_l,28,65536,32768,100,69,4.01,uniform,random,Mem100
-ram_l,32,65536,32768,0,1835,4.30,uniform,random,Mem100
-ram_l,32,65536,32768,50,1232,2.14,uniform,random,Mem100
-ram_l,32,65536,32768,100,64,16.90,uniform,random,Mem100
-ram_l,34,65536,32768,0,1966,124.93,uniform,random,Mem100
-ram_l,34,65536,32768,50,1311,97.88,uniform,random,Mem100
-ram_l,34,65536,32768,100,70,16.81,uniform,random,Mem100
-ram_l,6,98304,49152,0,408,0.96,uniform,random,Mem100
-ram_l,6,98304,49152,50,346,0.68,uniform,random,Mem100
-ram_l,6,98304,49152,100,50,0.29,uniform,random,Mem100
-ram_l,10,98304,49152,0,731,2.28,uniform,random,Mem100
-ram_l,10,98304,49152,50,559,1.14,uniform,random,Mem100
-ram_l,10,98304,49152,100,57,0.51,uniform,random,Mem100
-ram_l,12,98304,49152,0,972,0.92,uniform,random,Mem100
-ram_l,12,98304,49152,50,671,1.25,uniform,random,Mem100
-ram_l,12,98304,49152,100,57,0.48,uniform,random,Mem100
-ram_l,14,98304,49152,0,1144,2.68,uniform,random,Mem100
-ram_l,14,98304,49152,50,787,1.69,uniform,random,Mem100
-ram_l,14,98304,49152,100,63,0.47,uniform,random,Mem100
-ram_l,18,98304,49152,0,1669,431.46,uniform,random,Mem100
-ram_l,18,98304,49152,50,1021,75.85,uniform,random,Mem100
-ram_l,18,98304,49152,100,64,6.13,uniform,random,Mem100
-ram_l,20,98304,49152,0,1905,525.17,uniform,random,Mem100
-ram_l,20,98304,49152,50,1172,131.92,uniform,random,Mem100
-ram_l,20,98304,49152,100,64,8.70,uniform,random,Mem100
-ram_l,22,98304,49152,0,2057,466.88,uniform,random,Mem100
-ram_l,22,98304,49152,50,1308,149.12,uniform,random,Mem100
-ram_l,22,98304,49152,100,65,6.97,uniform,random,Mem100
-ram_l,24,98304,49152,0,2317,538.62,uniform,random,Mem100
-ram_l,24,98304,49152,50,1437,145.24,uniform,random,Mem100
-ram_l,24,98304,49152,100,65,8.52,uniform,random,Mem100
-ram_l,26,98304,49152,0,2498,495.09,uniform,random,Mem100
-ram_l,26,98304,49152,50,1588,149.70,uniform,random,Mem100
-ram_l,26,98304,49152,100,66,7.69,uniform,random,Mem100
-ram_l,28,98304,49152,0,2670,423.08,uniform,random,Mem100
-ram_l,28,98304,49152,50,1735,136.57,uniform,random,Mem100
-ram_l,28,98304,49152,100,66,6.50,uniform,random,Mem100
-ram_l,32,98304,49152,0,2990,17.28,uniform,random,Mem100
-ram_l,32,98304,49152,50,2044,3.86,uniform,random,Mem100
-ram_l,32,98304,49152,100,66,7.16,uniform,random,Mem100
-ram_l,34,98304,49152,0,3185,186.43,uniform,random,Mem100
-ram_l,34,98304,49152,50,2171,124.21,uniform,random,Mem100
-ram_l,34,98304,49152,100,75,15.07,uniform,random,Mem100
+date,pool,threads,sz,ws,rw_ratio,ltc,ltc_d,offset,pattern,mode
+Apr 27 09:41:01,fsdax,1,256,128,0,181,0.00,uniform,random,App
+Apr 27 09:41:12,ram_l,1,256,128,0,32,0.00,uniform,random,App
+Apr 27 09:41:23,ram_r,1,256,128,0,38,0.00,uniform,random,App
+Apr 27 09:41:34,pm_l,1,256,128,0,179,0.00,uniform,random,App
+Apr 27 09:41:45,pm_r,1,256,128,0,274,0.00,uniform,random,App
+Apr 27 09:41:56,fsdax,1,256,128,33,217,0.00,uniform,random,App
+Apr 27 09:42:07,ram_l,1,256,128,33,58,0.00,uniform,random,App
+Apr 27 09:42:18,ram_r,1,256,128,33,75,0.00,uniform,random,App
+Apr 27 09:42:29,pm_l,1,256,128,33,215,0.00,uniform,random,App
+Apr 27 09:42:40,pm_r,1,256,128,33,302,0.00,uniform,random,App
+Apr 27 09:42:51,fsdax,1,256,128,50,246,0.00,uniform,random,App
+Apr 27 09:43:02,ram_l,1,256,128,50,70,0.00,uniform,random,App
+Apr 27 09:43:13,ram_r,1,256,128,50,95,0.00,uniform,random,App
+Apr 27 09:43:24,pm_l,1,256,128,50,244,0.00,uniform,random,App
+Apr 27 09:43:35,pm_r,1,256,128,50,333,0.00,uniform,random,App
+Apr 27 09:43:46,fsdax,1,256,128,66,278,0.00,uniform,random,App
+Apr 27 09:43:57,ram_l,1,256,128,66,80,0.00,uniform,random,App
+Apr 27 09:44:07,ram_r,1,256,128,66,112,0.00,uniform,random,App
+Apr 27 09:44:18,pm_l,1,256,128,66,274,0.00,uniform,random,App
+Apr 27 09:44:30,pm_r,1,256,128,66,365,0.00,uniform,random,App
+Apr 27 09:44:40,fsdax,1,256,128,100,354,0.00,uniform,random,App
+Apr 27 09:44:51,ram_l,1,256,128,100,39,0.00,uniform,random,App
+Apr 27 09:45:02,ram_r,1,256,128,100,39,0.00,uniform,random,App
+Apr 27 09:45:13,pm_l,1,256,128,100,39,0.00,uniform,random,App
+Apr 27 09:45:24,pm_r,1,256,128,100,39,0.00,uniform,random,App
+Apr 27 09:45:35,fsdax,2,256,128,0,276,0.05,uniform,random,App
+Apr 27 09:45:45,ram_l,2,256,128,0,34,0.05,uniform,random,App
+Apr 27 09:45:56,ram_r,2,256,128,0,40,0.00,uniform,random,App
+Apr 27 09:46:07,pm_l,2,256,128,0,277,0.00,uniform,random,App
+Apr 27 09:46:19,pm_r,2,256,128,0,519,0.35,uniform,random,App
+Apr 27 09:46:29,fsdax,2,256,128,33,277,0.00,uniform,random,App
+Apr 27 09:46:40,ram_l,2,256,128,33,60,0.05,uniform,random,App
+Apr 27 09:46:51,ram_r,2,256,128,33,77,0.20,uniform,random,App
+Apr 27 09:47:02,pm_l,2,256,128,33,275,0.10,uniform,random,App
+Apr 27 09:47:13,pm_r,2,256,128,33,429,0.10,uniform,random,App
+Apr 27 09:47:24,fsdax,2,256,128,50,291,0.05,uniform,random,App
+Apr 27 09:47:35,ram_l,2,256,128,50,73,0.05,uniform,random,App
+Apr 27 09:47:46,ram_r,2,256,128,50,97,0.30,uniform,random,App
+Apr 27 09:47:57,pm_l,2,256,128,50,288,0.05,uniform,random,App
+Apr 27 09:48:08,pm_r,2,256,128,50,438,0.20,uniform,random,App
+Apr 27 09:48:19,fsdax,2,256,128,66,309,0.05,uniform,random,App
+Apr 27 09:48:30,ram_l,2,256,128,66,82,0.15,uniform,random,App
+Apr 27 09:48:41,ram_r,2,256,128,66,114,0.30,uniform,random,App
+Apr 27 09:48:52,pm_l,2,256,128,66,306,0.05,uniform,random,App
+Apr 27 09:49:03,pm_r,2,256,128,66,447,0.35,uniform,random,App
+Apr 27 09:49:14,fsdax,2,256,128,100,360,0.15,uniform,random,App
+Apr 27 09:49:25,ram_l,2,256,128,100,40,0.05,uniform,random,App
+Apr 27 09:49:36,ram_r,2,256,128,100,40,0.00,uniform,random,App
+Apr 27 09:49:46,pm_l,2,256,128,100,40,0.00,uniform,random,App
+Apr 27 09:49:57,pm_r,2,256,128,100,41,0.00,uniform,random,App
+Apr 27 09:50:08,fsdax,4,256,128,0,522,1.03,uniform,random,App
+Apr 27 09:50:19,ram_l,4,256,128,0,35,0.04,uniform,random,App
+Apr 27 09:50:30,ram_r,4,256,128,0,45,0.25,uniform,random,App
+Apr 27 09:50:41,pm_l,4,256,128,0,521,0.78,uniform,random,App
+Apr 27 09:50:52,pm_r,4,256,128,0,1126,2.78,uniform,random,App
+Apr 27 09:51:03,fsdax,4,256,128,33,408,0.21,uniform,random,App
+Apr 27 09:51:14,ram_l,4,256,128,33,61,0.12,uniform,random,App
+Apr 27 09:51:25,ram_r,4,256,128,33,80,0.17,uniform,random,App
+Apr 27 09:51:36,pm_l,4,256,128,33,409,0.18,uniform,random,App
+Apr 27 09:51:48,pm_r,4,256,128,33,795,0.68,uniform,random,App
+Apr 27 09:51:59,fsdax,4,256,128,50,385,0.27,uniform,random,App
+Apr 27 09:52:09,ram_l,4,256,128,50,74,0.23,uniform,random,App
+Apr 27 09:52:20,ram_r,4,256,128,50,99,0.25,uniform,random,App
+Apr 27 09:52:31,pm_l,4,256,128,50,384,0.29,uniform,random,App
+Apr 27 09:52:43,pm_r,4,256,128,50,691,0.24,uniform,random,App
+Apr 27 09:52:54,fsdax,4,256,128,66,374,0.27,uniform,random,App
+Apr 27 09:53:05,ram_l,4,256,128,66,84,0.24,uniform,random,App
+Apr 27 09:53:15,ram_r,4,256,128,66,115,0.37,uniform,random,App
+Apr 27 09:53:27,pm_l,4,256,128,66,370,1.13,uniform,random,App
+Apr 27 09:53:38,pm_r,4,256,128,66,628,1.66,uniform,random,App
+Apr 27 09:53:49,fsdax,4,256,128,100,366,1.28,uniform,random,App
+Apr 27 09:54:00,ram_l,4,256,128,100,42,0.17,uniform,random,App
+Apr 27 09:54:10,ram_r,4,256,128,100,42,0.12,uniform,random,App
+Apr 27 09:54:21,pm_l,4,256,128,100,41,0.17,uniform,random,App
+Apr 27 09:54:32,pm_r,4,256,128,100,41,0.17,uniform,random,App
+Apr 27 09:54:43,fsdax,8,256,128,0,1031,14.44,uniform,random,App
+Apr 27 09:54:54,ram_l,8,256,128,0,42,0.10,uniform,random,App
+Apr 27 09:55:05,ram_r,8,256,128,0,60,0.11,uniform,random,App
+Apr 27 09:55:16,pm_l,8,256,128,0,1009,18.13,uniform,random,App
+Apr 27 09:55:28,pm_r,8,256,128,0,2390,6.05,uniform,random,App
+Apr 27 09:55:39,fsdax,8,256,128,33,788,3.78,uniform,random,App
+Apr 27 09:55:50,ram_l,8,256,128,33,68,0.42,uniform,random,App
+Apr 27 09:56:01,ram_r,8,256,128,33,84,0.38,uniform,random,App
+Apr 27 09:56:12,pm_l,8,256,128,33,774,4.78,uniform,random,App
+Apr 27 09:56:24,pm_r,8,256,128,33,1794,2.01,uniform,random,App
+Apr 27 09:56:35,fsdax,8,256,128,50,645,0.84,uniform,random,App
+Apr 27 09:56:46,ram_l,8,256,128,50,80,0.67,uniform,random,App
+Apr 27 09:56:57,ram_r,8,256,128,50,104,0.65,uniform,random,App
+Apr 27 09:57:08,pm_l,8,256,128,50,643,0.73,uniform,random,App
+Apr 27 09:57:20,pm_r,8,256,128,50,1489,36.58,uniform,random,App
+Apr 27 09:57:31,fsdax,8,256,128,66,534,1.13,uniform,random,App
+Apr 27 09:57:42,ram_l,8,256,128,66,89,0.91,uniform,random,App
+Apr 27 09:57:52,ram_r,8,256,128,66,122,0.87,uniform,random,App
+Apr 27 09:58:04,pm_l,8,256,128,66,533,1.13,uniform,random,App
+Apr 27 09:58:15,pm_r,8,256,128,66,1176,1.43,uniform,random,App
+Apr 27 09:58:26,fsdax,8,256,128,100,386,1.05,uniform,random,App
+Apr 27 09:58:37,ram_l,8,256,128,100,45,0.23,uniform,random,App
+Apr 27 09:58:48,ram_r,8,256,128,100,46,0.23,uniform,random,App
+Apr 27 09:58:59,pm_l,8,256,128,100,45,0.22,uniform,random,App
+Apr 27 09:59:10,pm_r,8,256,128,100,46,0.21,uniform,random,App
+Apr 27 09:59:21,fsdax,16,256,128,0,1938,219.42,uniform,random,App
+Apr 27 09:59:32,ram_l,16,256,128,0,60,0.18,uniform,random,App
+Apr 27 09:59:42,ram_r,16,256,128,0,96,0.31,uniform,random,App
+Apr 27 09:59:54,pm_l,16,256,128,0,1890,193.71,uniform,random,App
+Apr 27 10:00:07,pm_r,16,256,128,0,4819,193.54,uniform,random,App
+Apr 27 10:00:18,fsdax,16,256,128,33,1526,135.34,uniform,random,App
+Apr 27 10:00:29,ram_l,16,256,128,33,77,0.40,uniform,random,App
+Apr 27 10:00:39,ram_r,16,256,128,33,103,0.44,uniform,random,App
+Apr 27 10:00:51,pm_l,16,256,128,33,1477,112.81,uniform,random,App
+Apr 27 10:01:04,pm_r,16,256,128,33,3814,91.69,uniform,random,App
+Apr 27 10:01:15,fsdax,16,256,128,50,1296,47.66,uniform,random,App
+Apr 27 10:01:26,ram_l,16,256,128,50,89,0.55,uniform,random,App
+Apr 27 10:01:37,ram_r,16,256,128,50,118,1.23,uniform,random,App
+Apr 27 10:01:48,pm_l,16,256,128,50,1237,44.29,uniform,random,App
+Apr 27 10:02:01,pm_r,16,256,128,50,3280,66.75,uniform,random,App
+Apr 27 10:02:12,fsdax,16,256,128,66,1049,2.89,uniform,random,App
+Apr 27 10:02:22,ram_l,16,256,128,66,98,0.73,uniform,random,App
+Apr 27 10:02:33,ram_r,16,256,128,66,131,0.77,uniform,random,App
+Apr 27 10:02:45,pm_l,16,256,128,66,1021,5.11,uniform,random,App
+Apr 27 10:02:57,pm_r,16,256,128,66,2658,39.22,uniform,random,App
+Apr 27 10:03:08,fsdax,16,256,128,100,450,1.04,uniform,random,App
+Apr 27 10:03:19,ram_l,16,256,128,100,51,0.30,uniform,random,App
+Apr 27 10:03:30,ram_r,16,256,128,100,51,0.38,uniform,random,App
+Apr 27 10:03:41,pm_l,16,256,128,100,51,0.27,uniform,random,App
+Apr 27 10:03:51,pm_r,16,256,128,100,51,0.32,uniform,random,App
+Apr 27 10:04:03,fsdax,32,256,128,0,3794,255.55,uniform,random,App
+Apr 27 10:04:14,ram_l,32,256,128,0,113,4.22,uniform,random,App
+Apr 27 10:04:25,ram_r,32,256,128,0,212,0.80,uniform,random,App
+Apr 27 10:04:37,pm_l,32,256,128,0,3753,222.65,uniform,random,App
+Apr 27 10:04:51,pm_r,32,256,128,0,9912,170.03,uniform,random,App
+Apr 27 10:05:02,fsdax,32,256,128,33,2958,191.58,uniform,random,App
+Apr 27 10:05:13,ram_l,32,256,128,33,111,1.26,uniform,random,App
+Apr 27 10:05:24,ram_r,32,256,128,33,174,0.76,uniform,random,App
+Apr 27 10:05:36,pm_l,32,256,128,33,2951,179.33,uniform,random,App
+Apr 27 10:05:51,pm_r,32,256,128,33,7915,147.92,uniform,random,App
+Apr 27 10:06:02,fsdax,32,256,128,50,2494,141.12,uniform,random,App
+Apr 27 10:06:13,ram_l,32,256,128,50,113,1.09,uniform,random,App
+Apr 27 10:06:24,ram_r,32,256,128,50,176,0.90,uniform,random,App
+Apr 27 10:06:36,pm_l,32,256,128,50,2489,132.61,uniform,random,App
+Apr 27 10:06:50,pm_r,32,256,128,50,6999,125.16,uniform,random,App
+Apr 27 10:07:01,fsdax,32,256,128,66,2161,13.58,uniform,random,App
+Apr 27 10:07:12,ram_l,32,256,128,66,117,0.83,uniform,random,App
+Apr 27 10:07:23,ram_r,32,256,128,66,174,1.17,uniform,random,App
+Apr 27 10:07:34,pm_l,32,256,128,66,2139,14.81,uniform,random,App
+Apr 27 10:07:48,pm_r,32,256,128,66,5746,91.15,uniform,random,App
+Apr 27 10:07:59,fsdax,32,256,128,100,854,1.18,uniform,random,App
+Apr 27 10:08:10,ram_l,32,256,128,100,63,0.68,uniform,random,App
+Apr 27 10:08:21,ram_r,32,256,128,100,63,0.73,uniform,random,App
+Apr 27 10:08:32,pm_l,32,256,128,100,63,0.61,uniform,random,App
+Apr 27 10:08:43,pm_r,32,256,128,100,63,0.82,uniform,random,App
+Apr 27 10:08:54,pm_l,8,256,128,00,1149,7.24,uniform,offset(0),App
+Apr 27 10:09:05,pm_l,8,256,128,50,746,1.40,uniform,offset(0),App
+Apr 27 10:09:16,pm_l,8,256,128,100,46,0.21,uniform,offset(0),App
+Apr 27 10:09:27,pm_l,8,256,128,00,1012,17.67,uniform,random,App
+Apr 27 10:09:38,pm_l,8,256,128,50,640,0.77,uniform,random,App
+Apr 27 10:09:49,pm_l,8,256,128,100,45,0.21,uniform,random,App
+Apr 27 10:10:00,pm_l,8,256,128,00,1118,237.16,uniform,offset(67),App
+Apr 27 10:10:12,pm_l,8,256,128,50,677,6.99,uniform,offset(67),App
+Apr 27 10:10:23,pm_l,8,256,128,100,45,0.20,uniform,offset(67),App
+Apr 27 10:10:34,pm_l,8,256,128,00,1151,221.00,uniform,offset(128),App
+Apr 27 10:10:45,pm_l,8,256,128,50,693,11.06,uniform,offset(128),App
+Apr 27 10:10:56,pm_l,8,256,128,100,46,0.23,uniform,offset(128),App
+Apr 27 10:11:07,pm_l,8,256,128,00,1276,48.29,thread_linear,offset(0),App
+Apr 27 10:11:18,pm_l,8,256,128,50,790,27.16,thread_linear,offset(0),App
+Apr 27 10:11:29,pm_l,8,256,128,100,52,0.41,thread_linear,offset(0),App
+Apr 27 10:11:40,pm_l,8,256,128,00,1027,19.51,thread_linear,random,App
+Apr 27 10:11:51,pm_l,8,256,128,50,651,1.37,thread_linear,random,App
+Apr 27 10:12:02,pm_l,8,256,128,100,48,0.25,thread_linear,random,App
+Apr 27 10:12:13,pm_l,8,256,128,00,1530,862.44,thread_linear,offset(67),App
+Apr 27 10:12:24,pm_l,8,256,128,50,730,44.31,thread_linear,offset(67),App
+Apr 27 10:12:35,pm_l,8,256,128,100,54,0.43,thread_linear,offset(67),App
+Apr 27 10:12:46,pm_l,8,256,128,00,1686,1041.60,thread_linear,offset(128),App
+Apr 27 10:12:57,pm_l,8,256,128,50,767,54.34,thread_linear,offset(128),App
+Apr 27 10:13:08,pm_l,8,256,128,100,56,7.53,thread_linear,offset(128),App
+Apr 28 09:11:54,ram_l,1,256,128,0,32,0.00,uniform,random,Mem100
+Apr 28 09:12:05,ram_l,1,256,128,33,58,0.00,uniform,random,Mem100
+Apr 28 09:12:16,ram_l,1,256,128,50,70,0.00,uniform,random,Mem100
+Apr 28 09:12:27,ram_l,1,256,128,66,80,0.00,uniform,random,Mem100
+Apr 28 09:12:38,ram_l,1,256,128,100,39,0.00,uniform,random,Mem100
+Apr 28 09:12:49,ram_l,2,256,128,0,33,0.05,uniform,random,Mem100
+Apr 28 09:12:59,ram_l,2,256,128,33,59,0.15,uniform,random,Mem100
+Apr 28 09:13:10,ram_l,2,256,128,50,74,0.10,uniform,random,Mem100
+Apr 28 09:13:21,ram_l,2,256,128,66,83,0.15,uniform,random,Mem100
+Apr 28 09:13:32,ram_l,2,256,128,100,40,0.00,uniform,random,Mem100
+Apr 28 09:13:43,ram_l,4,256,128,0,35,0.04,uniform,random,Mem100
+Apr 28 09:13:54,ram_l,4,256,128,33,61,0.15,uniform,random,Mem100
+Apr 28 09:14:04,ram_l,4,256,128,50,73,0.11,uniform,random,Mem100
+Apr 28 09:14:15,ram_l,4,256,128,66,84,0.27,uniform,random,Mem100
+Apr 28 09:14:26,ram_l,4,256,128,100,41,0.35,uniform,random,Mem100
+Apr 28 09:14:37,ram_l,8,256,128,0,43,0.08,uniform,random,Mem100
+Apr 28 09:14:48,ram_l,8,256,128,33,65,0.41,uniform,random,Mem100
+Apr 28 09:14:59,ram_l,8,256,128,50,80,0.60,uniform,random,Mem100
+Apr 28 09:15:10,ram_l,8,256,128,66,90,0.78,uniform,random,Mem100
+Apr 28 09:15:20,ram_l,8,256,128,100,46,0.35,uniform,random,Mem100
+Apr 28 09:15:31,ram_l,16,256,128,0,60,0.19,uniform,random,Mem100
+Apr 28 09:15:42,ram_l,16,256,128,33,77,0.36,uniform,random,Mem100
+Apr 28 09:15:53,ram_l,16,256,128,50,89,0.67,uniform,random,Mem100
+Apr 28 09:16:04,ram_l,16,256,128,66,98,0.83,uniform,random,Mem100
+Apr 28 09:16:15,ram_l,16,256,128,100,51,0.36,uniform,random,Mem100
+Apr 28 09:16:26,ram_l,32,256,128,0,116,0.84,uniform,random,Mem100
+Apr 28 09:16:36,ram_l,32,256,128,33,111,0.67,uniform,random,Mem100
+Apr 28 09:16:47,ram_l,32,256,128,50,113,0.90,uniform,random,Mem100
+Apr 28 09:16:58,ram_l,32,256,128,66,117,0.95,uniform,random,Mem100
+Apr 28 09:17:09,ram_l,32,256,128,100,62,0.83,uniform,random,Mem100
+Apr 28 09:17:20,ram_l,1,2048,1024,0,32,0.00,uniform,random,Mem100
+Apr 28 09:17:31,ram_l,1,2048,1024,33,61,0.00,uniform,random,Mem100
+Apr 28 09:17:42,ram_l,1,2048,1024,50,76,0.00,uniform,random,Mem100
+Apr 28 09:17:53,ram_l,1,2048,1024,66,88,0.00,uniform,random,Mem100
+Apr 28 09:18:04,ram_l,1,2048,1024,100,40,0.00,uniform,random,Mem100
+Apr 28 09:18:15,ram_l,2,2048,1024,0,33,0.00,uniform,random,Mem100
+Apr 28 09:18:26,ram_l,2,2048,1024,33,63,0.05,uniform,random,Mem100
+Apr 28 09:18:37,ram_l,2,2048,1024,50,77,0.20,uniform,random,Mem100
+Apr 28 09:18:48,ram_l,2,2048,1024,66,90,0.10,uniform,random,Mem100
+Apr 28 09:18:59,ram_l,2,2048,1024,100,41,0.15,uniform,random,Mem100
+Apr 28 09:19:10,ram_l,4,2048,1024,0,36,0.04,uniform,random,Mem100
+Apr 28 09:19:21,ram_l,4,2048,1024,33,66,0.21,uniform,random,Mem100
+Apr 28 09:19:32,ram_l,4,2048,1024,50,82,0.27,uniform,random,Mem100
+Apr 28 09:19:43,ram_l,4,2048,1024,66,93,0.33,uniform,random,Mem100
+Apr 28 09:19:54,ram_l,4,2048,1024,100,42,0.19,uniform,random,Mem100
+Apr 28 09:20:05,ram_l,8,2048,1024,0,45,0.24,uniform,random,Mem100
+Apr 28 09:20:16,ram_l,8,2048,1024,33,72,0.51,uniform,random,Mem100
+Apr 28 09:20:27,ram_l,8,2048,1024,50,89,0.75,uniform,random,Mem100
+Apr 28 09:20:38,ram_l,8,2048,1024,66,100,1.04,uniform,random,Mem100
+Apr 28 09:20:49,ram_l,8,2048,1024,100,42,0.37,uniform,random,Mem100
+Apr 28 09:21:00,ram_l,16,2048,1024,0,78,0.20,uniform,random,Mem100
+Apr 28 09:21:11,ram_l,16,2048,1024,33,88,0.93,uniform,random,Mem100
+Apr 28 09:21:22,ram_l,16,2048,1024,50,100,1.40,uniform,random,Mem100
+Apr 28 09:21:33,ram_l,16,2048,1024,66,111,1.05,uniform,random,Mem100
+Apr 28 09:21:44,ram_l,16,2048,1024,100,52,0.58,uniform,random,Mem100
+Apr 28 09:21:55,ram_l,32,2048,1024,0,152,0.86,uniform,random,Mem100
+Apr 28 09:22:06,ram_l,32,2048,1024,33,140,0.85,uniform,random,Mem100
+Apr 28 09:22:17,ram_l,32,2048,1024,50,134,1.06,uniform,random,Mem100
+Apr 28 09:22:28,ram_l,32,2048,1024,66,136,1.09,uniform,random,Mem100
+Apr 28 09:22:39,ram_l,32,2048,1024,100,64,0.65,uniform,random,Mem100
+Apr 28 09:22:52,ram_l,1,16384,8192,0,50,0.00,uniform,random,Mem100
+Apr 28 09:23:05,ram_l,1,16384,8192,33,66,0.00,uniform,random,Mem100
+Apr 28 09:23:18,ram_l,1,16384,8192,50,81,0.00,uniform,random,Mem100
+Apr 28 09:23:32,ram_l,1,16384,8192,66,94,0.00,uniform,random,Mem100
+Apr 28 09:23:43,ram_l,1,16384,8192,100,43,0.00,uniform,random,Mem100
+Apr 28 09:23:55,ram_l,2,16384,8192,0,38,0.00,uniform,random,Mem100
+Apr 28 09:24:07,ram_l,2,16384,8192,33,68,0.10,uniform,random,Mem100
+Apr 28 09:24:20,ram_l,2,16384,8192,50,83,0.15,uniform,random,Mem100
+Apr 28 09:24:32,ram_l,2,16384,8192,66,97,0.20,uniform,random,Mem100
+Apr 28 09:24:44,ram_l,2,16384,8192,100,44,0.05,uniform,random,Mem100
+Apr 28 09:24:56,ram_l,4,16384,8192,0,40,0.00,uniform,random,Mem100
+Apr 28 09:25:08,ram_l,4,16384,8192,33,70,0.21,uniform,random,Mem100
+Apr 28 09:25:20,ram_l,4,16384,8192,50,85,0.81,uniform,random,Mem100
+Apr 28 09:25:32,ram_l,4,16384,8192,66,97,0.35,uniform,random,Mem100
+Apr 28 09:25:44,ram_l,4,16384,8192,100,45,0.31,uniform,random,Mem100
+Apr 28 09:25:56,ram_l,8,16384,8192,0,48,0.28,uniform,random,Mem100
+Apr 28 09:26:08,ram_l,8,16384,8192,33,74,0.50,uniform,random,Mem100
+Apr 28 09:26:20,ram_l,8,16384,8192,50,93,0.81,uniform,random,Mem100
+Apr 28 09:26:32,ram_l,8,16384,8192,66,100,1.07,uniform,random,Mem100
+Apr 28 09:26:44,ram_l,8,16384,8192,100,52,0.34,uniform,random,Mem100
+Apr 28 09:26:56,ram_l,16,16384,8192,0,81,0.28,uniform,random,Mem100
+Apr 28 09:27:08,ram_l,16,16384,8192,33,93,0.52,uniform,random,Mem100
+Apr 28 09:27:20,ram_l,16,16384,8192,50,106,0.83,uniform,random,Mem100
+Apr 28 09:27:33,ram_l,16,16384,8192,66,117,1.08,uniform,random,Mem100
+Apr 28 09:27:44,ram_l,16,16384,8192,100,57,0.32,uniform,random,Mem100
+Apr 28 09:27:57,ram_l,32,16384,8192,0,158,0.73,uniform,random,Mem100
+Apr 28 09:28:10,ram_l,32,16384,8192,33,145,0.75,uniform,random,Mem100
+Apr 28 09:28:23,ram_l,32,16384,8192,50,140,0.93,uniform,random,Mem100
+Apr 28 09:28:36,ram_l,32,16384,8192,66,142,1.30,uniform,random,Mem100
+Apr 28 09:28:47,ram_l,32,16384,8192,100,68,0.77,uniform,random,Mem100
+Apr 28 09:29:02,ram_l,1,32768,16384,0,38,0.00,uniform,random,Mem100
+Apr 28 09:29:17,ram_l,1,32768,16384,33,68,0.00,uniform,random,Mem100
+Apr 28 09:29:33,ram_l,1,32768,16384,50,83,0.00,uniform,random,Mem100
+Apr 28 09:29:49,ram_l,1,32768,16384,66,94,0.00,uniform,random,Mem100
+Apr 28 09:30:00,ram_l,1,32768,16384,100,45,0.00,uniform,random,Mem100
+Apr 28 09:30:14,ram_l,2,32768,16384,0,40,0.00,uniform,random,Mem100
+Apr 28 09:30:28,ram_l,2,32768,16384,33,70,0.10,uniform,random,Mem100
+Apr 28 09:30:42,ram_l,2,32768,16384,50,88,0.15,uniform,random,Mem100
+Apr 28 09:30:57,ram_l,2,32768,16384,66,96,0.15,uniform,random,Mem100
+Apr 28 09:31:08,ram_l,2,32768,16384,100,47,0.00,uniform,random,Mem100
+Apr 28 09:31:21,ram_l,4,32768,16384,0,42,0.08,uniform,random,Mem100
+Apr 28 09:31:35,ram_l,4,32768,16384,33,72,0.55,uniform,random,Mem100
+Apr 28 09:31:48,ram_l,4,32768,16384,50,86,0.79,uniform,random,Mem100
+Apr 28 09:32:02,ram_l,4,32768,16384,66,101,1.12,uniform,random,Mem100
+Apr 28 09:32:14,ram_l,4,32768,16384,100,47,0.39,uniform,random,Mem100
+Apr 28 09:32:27,ram_l,8,32768,16384,0,51,0.12,uniform,random,Mem100
+Apr 28 09:32:41,ram_l,8,32768,16384,33,75,0.50,uniform,random,Mem100
+Apr 28 09:32:54,ram_l,8,32768,16384,50,96,0.86,uniform,random,Mem100
+Apr 28 09:33:08,ram_l,8,32768,16384,66,102,1.02,uniform,random,Mem100
+Apr 28 09:33:20,ram_l,8,32768,16384,100,48,0.43,uniform,random,Mem100
+Apr 28 09:33:34,ram_l,16,32768,16384,0,82,0.26,uniform,random,Mem100
+Apr 28 09:33:47,ram_l,16,32768,16384,33,95,0.49,uniform,random,Mem100
+Apr 28 09:34:01,ram_l,16,32768,16384,50,108,0.81,uniform,random,Mem100
+Apr 28 09:34:16,ram_l,16,32768,16384,66,119,1.04,uniform,random,Mem100
+Apr 28 09:34:28,ram_l,16,32768,16384,100,60,0.33,uniform,random,Mem100
+Apr 28 09:34:43,ram_l,32,32768,16384,0,159,0.74,uniform,random,Mem100
+Apr 28 09:34:57,ram_l,32,32768,16384,33,146,1.03,uniform,random,Mem100
+Apr 28 09:35:12,ram_l,32,32768,16384,50,141,0.95,uniform,random,Mem100
+Apr 28 09:35:27,ram_l,32,32768,16384,66,144,1.20,uniform,random,Mem100
+Apr 28 09:35:39,ram_l,32,32768,16384,100,69,2.36,uniform,random,Mem100
+Apr 28 09:36:05,ram_l,1,65536,32768,0,39,0.00,uniform,random,Mem100
+Apr 28 09:36:26,ram_l,1,65536,32768,33,71,0.00,uniform,random,Mem100
+Apr 28 09:36:47,ram_l,1,65536,32768,50,87,0.00,uniform,random,Mem100
+Apr 28 09:37:09,ram_l,1,65536,32768,66,97,0.00,uniform,random,Mem100
+Apr 28 09:37:22,ram_l,1,65536,32768,100,47,0.00,uniform,random,Mem100
+Apr 28 09:37:39,ram_l,2,65536,32768,0,42,0.00,uniform,random,Mem100
+Apr 28 09:37:57,ram_l,2,65536,32768,33,73,0.10,uniform,random,Mem100
+Apr 28 09:38:16,ram_l,2,65536,32768,50,89,0.10,uniform,random,Mem100
+Apr 28 09:38:35,ram_l,2,65536,32768,66,102,0.10,uniform,random,Mem100
+Apr 28 09:38:48,ram_l,2,65536,32768,100,48,0.10,uniform,random,Mem100
+Apr 28 09:39:03,ram_l,4,65536,32768,0,44,0.17,uniform,random,Mem100
+Apr 28 09:39:20,ram_l,4,65536,32768,33,74,0.49,uniform,random,Mem100
+Apr 28 09:39:38,ram_l,4,65536,32768,50,88,0.90,uniform,random,Mem100
+Apr 28 09:39:55,ram_l,4,65536,32768,66,102,1.05,uniform,random,Mem100
+Apr 28 09:40:08,ram_l,4,65536,32768,100,49,0.39,uniform,random,Mem100
+Apr 28 09:40:24,ram_l,8,65536,32768,0,53,0.10,uniform,random,Mem100
+Apr 28 09:40:41,ram_l,8,65536,32768,33,81,0.52,uniform,random,Mem100
+Apr 28 09:40:58,ram_l,8,65536,32768,50,97,1.02,uniform,random,Mem100
+Apr 28 09:41:16,ram_l,8,65536,32768,66,107,1.11,uniform,random,Mem100
+Apr 28 09:41:29,ram_l,8,65536,32768,100,54,0.25,uniform,random,Mem100
+Apr 28 09:41:46,ram_l,16,65536,32768,0,83,0.26,uniform,random,Mem100
+Apr 28 09:42:04,ram_l,16,65536,32768,33,99,0.57,uniform,random,Mem100
+Apr 28 09:42:22,ram_l,16,65536,32768,50,111,0.83,uniform,random,Mem100
+Apr 28 09:42:40,ram_l,16,65536,32768,66,121,1.07,uniform,random,Mem100
+Apr 28 09:42:54,ram_l,16,65536,32768,100,61,0.39,uniform,random,Mem100
+Apr 28 09:43:13,ram_l,32,65536,32768,0,160,0.61,uniform,random,Mem100
+Apr 28 09:43:33,ram_l,32,65536,32768,33,147,0.91,uniform,random,Mem100
+Apr 28 09:43:52,ram_l,32,65536,32768,50,142,1.13,uniform,random,Mem100
+Apr 28 09:44:11,ram_l,32,65536,32768,66,146,1.16,uniform,random,Mem100
+Apr 28 09:44:25,ram_l,32,65536,32768,100,67,5.63,uniform,random,Mem100
+Apr 28 09:45:07,ram_l,1,98304,49152,0,134,0.00,uniform,random,Mem100
+Apr 28 09:45:59,ram_l,1,98304,49152,33,164,0.00,uniform,random,Mem100
+Apr 28 09:46:52,ram_l,1,98304,49152,50,185,0.00,uniform,random,Mem100
+Apr 28 09:47:45,ram_l,1,98304,49152,66,205,0.00,uniform,random,Mem100
+Apr 28 09:47:59,ram_l,1,98304,49152,100,48,0.00,uniform,random,Mem100
+Apr 28 09:48:42,ram_l,2,98304,49152,0,161,0.00,uniform,random,Mem100
+Apr 28 09:49:28,ram_l,2,98304,49152,33,192,0.05,uniform,random,Mem100
+Apr 28 09:50:15,ram_l,2,98304,49152,50,213,0.05,uniform,random,Mem100
+Apr 28 09:51:03,ram_l,2,98304,49152,66,234,0.10,uniform,random,Mem100
+Apr 28 09:51:17,ram_l,2,98304,49152,100,50,0.20,uniform,random,Mem100
+Apr 28 09:52:17,ram_l,4,98304,49152,0,267,0.11,uniform,random,Mem100
+Apr 28 09:53:22,ram_l,4,98304,49152,33,251,0.29,uniform,random,Mem100
+Apr 28 09:54:24,ram_l,4,98304,49152,50,253,0.37,uniform,random,Mem100
+Apr 28 09:55:26,ram_l,4,98304,49152,66,274,1.16,uniform,random,Mem100
+Apr 28 09:55:40,ram_l,4,98304,49152,100,50,0.25,uniform,random,Mem100
+Apr 28 09:57:38,ram_l,8,98304,49152,0,576,0.55,uniform,random,Mem100
+Apr 28 09:59:39,ram_l,8,98304,49152,33,495,0.83,uniform,random,Mem100
+Apr 28 10:01:36,ram_l,8,98304,49152,50,454,1.12,uniform,random,Mem100
+Apr 28 10:03:27,ram_l,8,98304,49152,66,420,1.54,uniform,random,Mem100
+Apr 28 10:03:42,ram_l,8,98304,49152,100,50,0.49,uniform,random,Mem100
+Apr 28 10:06:33,ram_l,16,98304,49152,0,1367,3.73,uniform,random,Mem100
+Apr 28 10:09:25,ram_l,16,98304,49152,33,1088,2.21,uniform,random,Mem100
+Apr 28 10:12:04,ram_l,16,98304,49152,50,902,1.44,uniform,random,Mem100
+Apr 28 10:14:35,ram_l,16,98304,49152,66,767,1.65,uniform,random,Mem100
+Apr 28 10:14:50,ram_l,16,98304,49152,100,62,0.39,uniform,random,Mem100
+Apr 28 10:19:11,ram_l,32,98304,49152,0,2989,16.41,uniform,random,Mem100
+Apr 28 10:23:16,ram_l,32,98304,49152,33,2425,3.48,uniform,random,Mem100
+Apr 28 10:27:02,ram_l,32,98304,49152,50,2034,4.33,uniform,random,Mem100
+Apr 28 10:30:28,ram_l,32,98304,49152,66,1597,2.81,uniform,random,Mem100
+Apr 28 10:30:44,ram_l,32,98304,49152,100,67,5.90,uniform,random,Mem100
+Apr 28 13:14:58,ram_l,6,256,128,0,37,0.05,uniform,random,Mem100
+Apr 28 13:15:09,ram_l,6,256,128,50,75,0.51,uniform,random,Mem100
+Apr 28 13:15:20,ram_l,6,256,128,100,42,0.30,uniform,random,Mem100
+Apr 28 13:15:31,ram_l,10,256,128,0,45,0.14,uniform,random,Mem100
+Apr 28 13:15:42,ram_l,10,256,128,50,82,0.57,uniform,random,Mem100
+Apr 28 13:15:52,ram_l,10,256,128,100,47,0.39,uniform,random,Mem100
+Apr 28 13:16:03,ram_l,12,256,128,0,50,0.06,uniform,random,Mem100
+Apr 28 13:16:14,ram_l,12,256,128,50,87,0.54,uniform,random,Mem100
+Apr 28 13:16:25,ram_l,12,256,128,100,49,0.29,uniform,random,Mem100
+Apr 28 13:16:36,ram_l,14,256,128,0,55,0.15,uniform,random,Mem100
+Apr 28 13:16:47,ram_l,14,256,128,50,88,0.56,uniform,random,Mem100
+Apr 28 13:16:57,ram_l,14,256,128,100,51,0.25,uniform,random,Mem100
+Apr 28 13:17:08,ram_l,18,256,128,0,70,15.53,uniform,random,Mem100
+Apr 28 13:17:19,ram_l,18,256,128,50,92,4.77,uniform,random,Mem100
+Apr 28 13:17:30,ram_l,18,256,128,100,54,5.18,uniform,random,Mem100
+Apr 28 13:17:41,ram_l,20,256,128,0,78,18.35,uniform,random,Mem100
+Apr 28 13:17:52,ram_l,20,256,128,50,95,5.89,uniform,random,Mem100
+Apr 28 13:18:03,ram_l,20,256,128,100,56,5.40,uniform,random,Mem100
+Apr 28 13:18:13,ram_l,22,256,128,0,86,19.35,uniform,random,Mem100
+Apr 28 13:18:24,ram_l,22,256,128,50,99,6.09,uniform,random,Mem100
+Apr 28 13:18:35,ram_l,22,256,128,100,57,5.53,uniform,random,Mem100
+Apr 28 13:18:46,ram_l,24,256,128,0,93,18.92,uniform,random,Mem100
+Apr 28 13:18:57,ram_l,24,256,128,50,102,6.08,uniform,random,Mem100
+Apr 28 13:19:08,ram_l,24,256,128,100,59,5.40,uniform,random,Mem100
+Apr 28 13:19:19,ram_l,26,256,128,0,100,17.23,uniform,random,Mem100
+Apr 28 13:19:29,ram_l,26,256,128,50,105,5.24,uniform,random,Mem100
+Apr 28 13:19:40,ram_l,26,256,128,100,60,4.74,uniform,random,Mem100
+Apr 28 13:19:51,ram_l,28,256,128,0,106,14.62,uniform,random,Mem100
+Apr 28 13:20:02,ram_l,28,256,128,50,108,4.68,uniform,random,Mem100
+Apr 28 13:20:13,ram_l,28,256,128,100,61,3.98,uniform,random,Mem100
+Apr 28 13:20:24,ram_l,32,256,128,0,117,0.68,uniform,random,Mem100
+Apr 28 13:20:35,ram_l,32,256,128,50,113,0.87,uniform,random,Mem100
+Apr 28 13:20:45,ram_l,32,256,128,100,62,0.83,uniform,random,Mem100
+Apr 28 13:20:56,ram_l,34,256,128,0,125,9.00,uniform,random,Mem100
+Apr 28 13:21:07,ram_l,34,256,128,50,122,11.41,uniform,random,Mem100
+Apr 28 13:21:18,ram_l,34,256,128,100,68,6.97,uniform,random,Mem100
+Apr 28 13:21:30,ram_l,6,2048,1024,0,44,0.11,uniform,random,Mem100
+Apr 28 13:21:41,ram_l,6,2048,1024,50,85,0.70,uniform,random,Mem100
+Apr 28 13:21:51,ram_l,6,2048,1024,100,42,0.32,uniform,random,Mem100
+Apr 28 13:22:02,ram_l,10,2048,1024,0,57,0.14,uniform,random,Mem100
+Apr 28 13:22:13,ram_l,10,2048,1024,50,95,0.74,uniform,random,Mem100
+Apr 28 13:22:24,ram_l,10,2048,1024,100,47,0.34,uniform,random,Mem100
+Apr 28 13:22:35,ram_l,12,2048,1024,0,66,0.10,uniform,random,Mem100
+Apr 28 13:22:46,ram_l,12,2048,1024,50,100,0.73,uniform,random,Mem100
+Apr 28 13:22:57,ram_l,12,2048,1024,100,51,1.02,uniform,random,Mem100
+Apr 28 13:23:08,ram_l,14,2048,1024,0,73,0.17,uniform,random,Mem100
+Apr 28 13:23:19,ram_l,14,2048,1024,50,103,0.70,uniform,random,Mem100
+Apr 28 13:23:30,ram_l,14,2048,1024,100,52,1.16,uniform,random,Mem100
+Apr 28 13:23:41,ram_l,18,2048,1024,0,94,22.79,uniform,random,Mem100
+Apr 28 13:23:52,ram_l,18,2048,1024,50,110,4.88,uniform,random,Mem100
+Apr 28 13:24:03,ram_l,18,2048,1024,100,55,4.93,uniform,random,Mem100
+Apr 28 13:24:14,ram_l,20,2048,1024,0,108,27.36,uniform,random,Mem100
+Apr 28 13:24:25,ram_l,20,2048,1024,50,115,6.36,uniform,random,Mem100
+Apr 28 13:24:36,ram_l,20,2048,1024,100,57,5.21,uniform,random,Mem100
+Apr 28 13:24:47,ram_l,22,2048,1024,0,118,28.59,uniform,random,Mem100
+Apr 28 13:24:58,ram_l,22,2048,1024,50,117,6.66,uniform,random,Mem100
+Apr 28 13:25:09,ram_l,22,2048,1024,100,59,5.54,uniform,random,Mem100
+Apr 28 13:25:20,ram_l,24,2048,1024,0,126,27.26,uniform,random,Mem100
+Apr 28 13:25:31,ram_l,24,2048,1024,50,120,6.56,uniform,random,Mem100
+Apr 28 13:25:42,ram_l,24,2048,1024,100,60,5.07,uniform,random,Mem100
+Apr 28 13:25:53,ram_l,26,2048,1024,0,134,24.83,uniform,random,Mem100
+Apr 28 13:26:04,ram_l,26,2048,1024,50,125,6.06,uniform,random,Mem100
+Apr 28 13:26:15,ram_l,26,2048,1024,100,61,4.63,uniform,random,Mem100
+Apr 28 13:26:26,ram_l,28,2048,1024,0,142,21.12,uniform,random,Mem100
+Apr 28 13:26:37,ram_l,28,2048,1024,50,129,5.25,uniform,random,Mem100
+Apr 28 13:26:48,ram_l,28,2048,1024,100,62,3.74,uniform,random,Mem100
+Apr 28 13:26:59,ram_l,32,2048,1024,0,154,0.92,uniform,random,Mem100
+Apr 28 13:27:11,ram_l,32,2048,1024,50,137,0.87,uniform,random,Mem100
+Apr 28 13:27:21,ram_l,32,2048,1024,100,63,0.83,uniform,random,Mem100
+Apr 28 13:27:33,ram_l,34,2048,1024,0,165,8.86,uniform,random,Mem100
+Apr 28 13:27:44,ram_l,34,2048,1024,50,146,9.90,uniform,random,Mem100
+Apr 28 13:27:55,ram_l,34,2048,1024,100,66,11.77,uniform,random,Mem100
+Apr 28 13:28:11,ram_l,6,16384,8192,0,72,0.10,uniform,random,Mem100
+Apr 28 13:28:24,ram_l,6,16384,8192,50,109,0.67,uniform,random,Mem100
+Apr 28 13:28:36,ram_l,6,16384,8192,100,46,0.33,uniform,random,Mem100
+Apr 28 13:28:49,ram_l,10,16384,8192,0,105,0.19,uniform,random,Mem100
+Apr 28 13:29:02,ram_l,10,16384,8192,50,122,0.73,uniform,random,Mem100
+Apr 28 13:29:13,ram_l,10,16384,8192,100,52,0.30,uniform,random,Mem100
+Apr 28 13:29:26,ram_l,12,16384,8192,0,126,0.34,uniform,random,Mem100
+Apr 28 13:29:39,ram_l,12,16384,8192,50,125,0.80,uniform,random,Mem100
+Apr 28 13:29:51,ram_l,12,16384,8192,100,53,0.31,uniform,random,Mem100
+Apr 28 13:30:04,ram_l,14,16384,8192,0,148,0.43,uniform,random,Mem100
+Apr 28 13:30:17,ram_l,14,16384,8192,50,133,0.74,uniform,random,Mem100
+Apr 28 13:30:28,ram_l,14,16384,8192,100,57,0.39,uniform,random,Mem100
+Apr 28 13:30:42,ram_l,18,16384,8192,0,196,39.05,uniform,random,Mem100
+Apr 28 13:30:55,ram_l,18,16384,8192,50,145,8.46,uniform,random,Mem100
+Apr 28 13:31:07,ram_l,18,16384,8192,100,60,4.69,uniform,random,Mem100
+Apr 28 13:31:21,ram_l,20,16384,8192,0,220,47.29,uniform,random,Mem100
+Apr 28 13:31:34,ram_l,20,16384,8192,50,159,11.04,uniform,random,Mem100
+Apr 28 13:31:46,ram_l,20,16384,8192,100,62,5.55,uniform,random,Mem100
+Apr 28 13:32:00,ram_l,22,16384,8192,0,243,49.24,uniform,random,Mem100
+Apr 28 13:32:13,ram_l,22,16384,8192,50,173,12.52,uniform,random,Mem100
+Apr 28 13:32:25,ram_l,22,16384,8192,100,63,5.45,uniform,random,Mem100
+Apr 28 13:32:39,ram_l,24,16384,8192,0,263,49.18,uniform,random,Mem100
+Apr 28 13:32:53,ram_l,24,16384,8192,50,188,13.92,uniform,random,Mem100
+Apr 28 13:33:04,ram_l,24,16384,8192,100,65,5.31,uniform,random,Mem100
+Apr 28 13:33:18,ram_l,26,16384,8192,0,286,44.61,uniform,random,Mem100
+Apr 28 13:33:32,ram_l,26,16384,8192,50,200,14.53,uniform,random,Mem100
+Apr 28 13:33:44,ram_l,26,16384,8192,100,65,4.50,uniform,random,Mem100
+Apr 28 13:33:58,ram_l,28,16384,8192,0,300,28.09,uniform,random,Mem100
+Apr 28 13:34:12,ram_l,28,16384,8192,50,219,13.30,uniform,random,Mem100
+Apr 28 13:34:24,ram_l,28,16384,8192,100,67,3.97,uniform,random,Mem100
+Apr 28 13:34:39,ram_l,32,16384,8192,0,342,0.89,uniform,random,Mem100
+Apr 28 13:34:53,ram_l,32,16384,8192,50,248,0.92,uniform,random,Mem100
+Apr 28 13:35:04,ram_l,32,16384,8192,100,68,0.86,uniform,random,Mem100
+Apr 28 13:35:20,ram_l,34,16384,8192,0,366,22.88,uniform,random,Mem100
+Apr 28 13:35:34,ram_l,34,16384,8192,50,269,18.80,uniform,random,Mem100
+Apr 28 13:35:46,ram_l,34,16384,8192,100,73,13.09,uniform,random,Mem100
+Apr 28 13:36:07,ram_l,6,32768,16384,0,124,0.12,uniform,random,Mem100
+Apr 28 13:36:26,ram_l,6,32768,16384,50,139,0.68,uniform,random,Mem100
+Apr 28 13:36:37,ram_l,6,32768,16384,100,48,0.33,uniform,random,Mem100
+Apr 28 13:36:56,ram_l,10,32768,16384,0,207,0.52,uniform,random,Mem100
+Apr 28 13:37:16,ram_l,10,32768,16384,50,164,0.76,uniform,random,Mem100
+Apr 28 13:37:28,ram_l,10,32768,16384,100,54,0.36,uniform,random,Mem100
+Apr 28 13:37:48,ram_l,12,32768,16384,0,250,0.65,uniform,random,Mem100
+Apr 28 13:38:07,ram_l,12,32768,16384,50,192,0.89,uniform,random,Mem100
+Apr 28 13:38:19,ram_l,12,32768,16384,100,54,0.39,uniform,random,Mem100
+Apr 28 13:38:40,ram_l,14,32768,16384,0,293,0.66,uniform,random,Mem100
+Apr 28 13:39:00,ram_l,14,32768,16384,50,221,0.89,uniform,random,Mem100
+Apr 28 13:39:12,ram_l,14,32768,16384,100,60,0.33,uniform,random,Mem100
+Apr 28 13:39:34,ram_l,18,32768,16384,0,393,76.85,uniform,random,Mem100
+Apr 28 13:39:55,ram_l,18,32768,16384,50,280,18.13,uniform,random,Mem100
+Apr 28 13:40:07,ram_l,18,32768,16384,100,61,3.65,uniform,random,Mem100
+Apr 28 13:40:29,ram_l,20,32768,16384,0,441,95.54,uniform,random,Mem100
+Apr 28 13:40:51,ram_l,20,32768,16384,50,311,24.10,uniform,random,Mem100
+Apr 28 13:41:03,ram_l,20,32768,16384,100,63,4.71,uniform,random,Mem100
+Apr 28 13:41:26,ram_l,22,32768,16384,0,487,101.04,uniform,random,Mem100
+Apr 28 13:41:48,ram_l,22,32768,16384,50,341,27.01,uniform,random,Mem100
+Apr 28 13:42:00,ram_l,22,32768,16384,100,65,6.18,uniform,random,Mem100
+Apr 28 13:42:24,ram_l,24,32768,16384,0,532,100.78,uniform,random,Mem100
+Apr 28 13:42:46,ram_l,24,32768,16384,50,370,20.95,uniform,random,Mem100
+Apr 28 13:42:59,ram_l,24,32768,16384,100,66,5.04,uniform,random,Mem100
+Apr 28 13:43:23,ram_l,26,32768,16384,0,573,93.72,uniform,random,Mem100
+Apr 28 13:43:46,ram_l,26,32768,16384,50,402,27.78,uniform,random,Mem100
+Apr 28 13:43:58,ram_l,26,32768,16384,100,67,4.38,uniform,random,Mem100
+Apr 28 13:44:24,ram_l,28,32768,16384,0,611,79.99,uniform,random,Mem100
+Apr 28 13:44:47,ram_l,28,32768,16384,50,433,25.62,uniform,random,Mem100
+Apr 28 13:45:00,ram_l,28,32768,16384,100,68,4.10,uniform,random,Mem100
+Apr 28 13:45:26,ram_l,32,32768,16384,0,689,1.35,uniform,random,Mem100
+Apr 28 13:45:51,ram_l,32,32768,16384,50,497,1.29,uniform,random,Mem100
+Apr 28 13:46:03,ram_l,32,32768,16384,100,69,2.67,uniform,random,Mem100
+Apr 28 13:46:31,ram_l,34,32768,16384,0,744,122.96,uniform,random,Mem100
+Apr 28 13:46:56,ram_l,34,32768,16384,50,526,48.92,uniform,random,Mem100
+Apr 28 13:47:09,ram_l,34,32768,16384,100,73,5.52,uniform,random,Mem100
+Apr 28 13:47:52,ram_l,6,65536,32768,0,261,0.11,uniform,random,Mem100
+Apr 28 13:48:36,ram_l,6,65536,32768,50,223,1.13,uniform,random,Mem100
+Apr 28 13:48:49,ram_l,6,65536,32768,100,50,0.32,uniform,random,Mem100
+Apr 28 13:49:45,ram_l,10,65536,32768,0,461,0.39,uniform,random,Mem100
+Apr 28 13:50:41,ram_l,10,65536,32768,50,352,0.98,uniform,random,Mem100
+Apr 28 13:50:55,ram_l,10,65536,32768,100,56,0.36,uniform,random,Mem100
+Apr 28 13:51:55,ram_l,12,65536,32768,0,580,1.89,uniform,random,Mem100
+Apr 28 13:52:54,ram_l,12,65536,32768,50,419,1.15,uniform,random,Mem100
+Apr 28 13:53:08,ram_l,12,65536,32768,100,56,0.33,uniform,random,Mem100
+Apr 28 13:54:13,ram_l,14,65536,32768,0,716,1.95,uniform,random,Mem100
+Apr 28 13:55:14,ram_l,14,65536,32768,50,489,1.21,uniform,random,Mem100
+Apr 28 13:55:28,ram_l,14,65536,32768,100,61,0.39,uniform,random,Mem100
+Apr 28 13:56:41,ram_l,18,65536,32768,0,1017,219.72,uniform,random,Mem100
+Apr 28 13:57:48,ram_l,18,65536,32768,50,626,35.42,uniform,random,Mem100
+Apr 28 13:58:02,ram_l,18,65536,32768,100,63,4.66,uniform,random,Mem100
+Apr 28 13:59:19,ram_l,20,65536,32768,0,1161,275.22,uniform,random,Mem100
+Apr 28 14:00:29,ram_l,20,65536,32768,50,698,45.47,uniform,random,Mem100
+Apr 28 14:00:43,ram_l,20,65536,32768,100,64,5.96,uniform,random,Mem100
+Apr 28 14:02:03,ram_l,22,65536,32768,0,1294,296.94,uniform,random,Mem100
+Apr 28 14:03:17,ram_l,22,65536,32768,50,790,74.85,uniform,random,Mem100
+Apr 28 14:03:31,ram_l,22,65536,32768,100,65,5.94,uniform,random,Mem100
+Apr 28 14:04:56,ram_l,24,65536,32768,0,1419,295.75,uniform,random,Mem100
+Apr 28 14:06:13,ram_l,24,65536,32768,50,871,78.52,uniform,random,Mem100
+Apr 28 14:06:26,ram_l,24,65536,32768,100,66,5.60,uniform,random,Mem100
+Apr 28 14:07:56,ram_l,26,65536,32768,0,1535,276.12,uniform,random,Mem100
+Apr 28 14:09:15,ram_l,26,65536,32768,50,954,77.22,uniform,random,Mem100
+Apr 28 14:09:29,ram_l,26,65536,32768,100,67,5.72,uniform,random,Mem100
+Apr 28 14:11:03,ram_l,28,65536,32768,0,1645,238.22,uniform,random,Mem100
+Apr 28 14:12:26,ram_l,28,65536,32768,50,1044,69.45,uniform,random,Mem100
+Apr 28 14:12:40,ram_l,28,65536,32768,100,69,4.01,uniform,random,Mem100
+Apr 28 14:14:23,ram_l,32,65536,32768,0,1835,4.30,uniform,random,Mem100
+Apr 28 14:15:54,ram_l,32,65536,32768,50,1232,2.14,uniform,random,Mem100
+Apr 28 14:16:07,ram_l,32,65536,32768,100,64,16.90,uniform,random,Mem100
+Apr 28 14:17:54,ram_l,34,65536,32768,0,1966,124.93,uniform,random,Mem100
+Apr 28 14:19:28,ram_l,34,65536,32768,50,1311,97.88,uniform,random,Mem100
+Apr 28 14:19:42,ram_l,34,65536,32768,100,70,16.81,uniform,random,Mem100
+Apr 28 14:20:56,ram_l,6,98304,49152,0,408,0.96,uniform,random,Mem100
+Apr 28 14:22:31,ram_l,6,98304,49152,50,346,0.68,uniform,random,Mem100
+Apr 28 14:22:46,ram_l,6,98304,49152,100,50,0.29,uniform,random,Mem100
+Apr 28 14:25:02,ram_l,10,98304,49152,0,731,2.28,uniform,random,Mem100
+Apr 28 14:27:17,ram_l,10,98304,49152,50,559,1.14,uniform,random,Mem100
+Apr 28 14:27:32,ram_l,10,98304,49152,100,57,0.51,uniform,random,Mem100
+Apr 28 14:30:04,ram_l,12,98304,49152,0,972,0.92,uniform,random,Mem100
+Apr 28 14:32:30,ram_l,12,98304,49152,50,671,1.25,uniform,random,Mem100
+Apr 28 14:32:45,ram_l,12,98304,49152,100,57,0.48,uniform,random,Mem100
+Apr 28 14:35:27,ram_l,14,98304,49152,0,1144,2.68,uniform,random,Mem100
+Apr 28 14:38:02,ram_l,14,98304,49152,50,787,1.69,uniform,random,Mem100
+Apr 28 14:38:17,ram_l,14,98304,49152,100,63,0.47,uniform,random,Mem100
+Apr 28 14:41:21,ram_l,18,98304,49152,0,1669,431.46,uniform,random,Mem100
+Apr 28 14:44:12,ram_l,18,98304,49152,50,1021,75.85,uniform,random,Mem100
+Apr 28 14:44:28,ram_l,18,98304,49152,100,64,6.13,uniform,random,Mem100
+Apr 28 14:47:41,ram_l,20,98304,49152,0,1905,525.17,uniform,random,Mem100
+Apr 28 14:50:40,ram_l,20,98304,49152,50,1172,131.92,uniform,random,Mem100
+Apr 28 14:50:56,ram_l,20,98304,49152,100,64,8.70,uniform,random,Mem100
+Apr 28 14:54:18,ram_l,22,98304,49152,0,2057,466.88,uniform,random,Mem100
+Apr 28 14:57:26,ram_l,22,98304,49152,50,1308,149.12,uniform,random,Mem100
+Apr 28 14:57:42,ram_l,22,98304,49152,100,65,6.97,uniform,random,Mem100
+Apr 28 15:01:18,ram_l,24,98304,49152,0,2317,538.62,uniform,random,Mem100
+Apr 28 15:04:34,ram_l,24,98304,49152,50,1437,145.24,uniform,random,Mem100
+Apr 28 15:04:50,ram_l,24,98304,49152,100,65,8.52,uniform,random,Mem100
+Apr 28 15:08:36,ram_l,26,98304,49152,0,2498,495.09,uniform,random,Mem100
+Apr 28 15:12:00,ram_l,26,98304,49152,50,1588,149.70,uniform,random,Mem100
+Apr 28 15:12:16,ram_l,26,98304,49152,100,66,7.69,uniform,random,Mem100
+Apr 28 15:16:14,ram_l,28,98304,49152,0,2670,423.08,uniform,random,Mem100
+Apr 28 15:19:47,ram_l,28,98304,49152,50,1735,136.57,uniform,random,Mem100
+Apr 28 15:20:03,ram_l,28,98304,49152,100,66,6.50,uniform,random,Mem100
+Apr 28 15:24:27,ram_l,32,98304,49152,0,2990,17.28,uniform,random,Mem100
+Apr 28 15:28:19,ram_l,32,98304,49152,50,2044,3.86,uniform,random,Mem100
+Apr 28 15:28:35,ram_l,32,98304,49152,100,66,7.16,uniform,random,Mem100
+Apr 28 15:33:08,ram_l,34,98304,49152,0,3185,186.43,uniform,random,Mem100
+Apr 28 15:37:07,ram_l,34,98304,49152,50,2171,124.21,uniform,random,Mem100
+Apr 28 15:37:24,ram_l,34,98304,49152,100,75,15.07,uniform,random,Mem100
+May  1 14:16:07,ram_l,3,63488,31744,0,152,0.05,uniform,random,Mem100
+May  1 14:16:39,ram_l,3,63488,31744,50,195,0.12,uniform,random,Mem100
+May  1 14:17:07,ram_l,3,63888,31944,0,153,0.08,uniform,random,Mem100
+May  1 14:17:40,ram_l,3,63888,31944,50,196,0.82,uniform,random,Mem100
+May  1 14:18:09,ram_l,3,64288,32144,0,154,0.05,uniform,random,Mem100
+May  1 14:18:41,ram_l,3,64288,32144,50,196,0.14,uniform,random,Mem100
+May  1 14:19:11,ram_l,3,64688,32344,0,173,0.14,uniform,random,Mem100
+May  1 14:19:43,ram_l,3,64688,32344,50,196,0.17,uniform,random,Mem100
+May  1 14:20:13,ram_l,3,65088,32544,0,155,0.05,uniform,random,Mem100
+May  1 14:20:46,ram_l,3,65088,32544,50,198,0.12,uniform,random,Mem100
+May  1 14:21:15,ram_l,3,65488,32744,0,157,0.14,uniform,random,Mem100
+May  1 14:21:49,ram_l,3,65488,32744,50,201,1.04,uniform,random,Mem100
+May  1 14:22:19,ram_l,3,65888,32944,0,157,0.12,uniform,random,Mem100
+May  1 14:22:52,ram_l,3,65888,32944,50,199,0.57,uniform,random,Mem100
+May  1 14:23:22,ram_l,3,66288,33144,0,158,0.09,uniform,random,Mem100
+May  1 14:23:56,ram_l,3,66288,33144,50,199,0.09,uniform,random,Mem100
+May  1 14:24:26,ram_l,3,66688,33344,0,159,0.12,uniform,random,Mem100
+May  1 14:25:00,ram_l,3,66688,33344,50,200,0.08,uniform,random,Mem100
+May  1 14:25:31,ram_l,3,67088,33544,0,161,0.12,uniform,random,Mem100
+May  1 14:26:05,ram_l,3,67088,33544,50,202,0.50,uniform,random,Mem100
+May  1 14:26:36,ram_l,3,67488,33744,0,162,0.21,uniform,random,Mem100
+May  1 14:27:10,ram_l,3,67488,33744,50,201,0.62,uniform,random,Mem100
+May  1 14:27:41,ram_l,3,67888,33944,0,162,0.17,uniform,random,Mem100
+May  1 14:28:15,ram_l,3,67888,33944,50,204,0.09,uniform,random,Mem100
+May  1 14:28:47,ram_l,3,68288,34144,0,163,0.09,uniform,random,Mem100
+May  1 14:29:21,ram_l,3,68288,34144,50,204,0.36,uniform,random,Mem100
+May  1 14:29:53,ram_l,3,68688,34344,0,164,0.09,uniform,random,Mem100
+May  1 14:30:28,ram_l,3,68688,34344,50,203,0.09,uniform,random,Mem100
+May  1 14:30:59,ram_l,3,69088,34544,0,164,0.12,uniform,random,Mem100
+May  1 14:31:35,ram_l,3,69088,34544,50,203,0.17,uniform,random,Mem100
+May  1 14:32:06,ram_l,3,69488,34744,0,164,0.12,uniform,random,Mem100
+May  1 14:32:42,ram_l,3,69488,34744,50,205,0.05,uniform,random,Mem100
+May  1 15:41:30,ram_l,2,63488,31744,0,132,0.00,uniform,random,Mem100
+May  1 15:42:01,ram_l,2,63488,31744,50,180,0.05,uniform,random,Mem100
+May  1 15:42:30,ram_l,2,63888,31944,0,132,0.00,uniform,random,Mem100
+May  1 15:43:01,ram_l,2,63888,31944,50,181,1.05,uniform,random,Mem100
+May  1 15:43:29,ram_l,2,64288,32144,0,133,0.00,uniform,random,Mem100
+May  1 15:44:00,ram_l,2,64288,32144,50,182,0.20,uniform,random,Mem100
+May  1 15:44:29,ram_l,2,64688,32344,0,133,0.00,uniform,random,Mem100
+May  1 15:45:01,ram_l,2,122880,61440,50,182,0.05,uniform,random,Mem100
+May  1 15:45:29,ram_l,2,65088,32544,0,134,0.15,uniform,random,Mem100
+May  1 15:46:01,ram_l,2,65088,32544,50,180,0.70,uniform,random,Mem100
+May  1 15:46:30,ram_l,2,65488,32744,0,136,0.45,uniform,random,Mem100
+May  1 15:47:02,ram_l,2,65488,32744,50,181,0.70,uniform,random,Mem100
+May  1 15:47:31,ram_l,2,65888,32944,0,135,0.45,uniform,random,Mem100
+May  1 15:48:04,ram_l,2,65888,32944,50,184,0.10,uniform,random,Mem100
+May  1 15:48:33,ram_l,2,66288,33144,0,136,0.20,uniform,random,Mem100
+May  1 15:49:05,ram_l,2,66288,33144,50,185,0.10,uniform,random,Mem100
+May  1 15:49:35,ram_l,2,66688,33344,0,136,0.00,uniform,random,Mem100
+May  1 15:50:08,ram_l,2,66688,33344,50,186,0.05,uniform,random,Mem100
+May  1 15:50:37,ram_l,2,67088,33544,0,137,0.05,uniform,random,Mem100
+May  1 15:51:10,ram_l,2,67088,33544,50,186,0.20,uniform,random,Mem100
+May  1 15:51:40,ram_l,2,67488,33744,0,136,0.45,uniform,random,Mem100
+May  1 15:52:13,ram_l,2,67488,33744,50,187,0.10,uniform,random,Mem100
+May  1 15:52:43,ram_l,2,67888,33944,0,137,0.40,uniform,random,Mem100
+May  1 15:53:17,ram_l,2,67888,33944,50,186,0.70,uniform,random,Mem100
+May  1 15:53:48,ram_l,2,68288,34144,0,158,0.00,uniform,random,Mem100
+May  1 15:54:21,ram_l,2,68288,34144,50,187,0.65,uniform,random,Mem100
+May  1 15:54:52,ram_l,2,68688,34344,0,139,0.40,uniform,random,Mem100
+May  1 15:55:26,ram_l,2,68688,34344,50,196,0.75,uniform,random,Mem100
+May  1 15:55:56,ram_l,2,69088,34544,0,139,0.40,uniform,random,Mem100
+May  1 15:56:31,ram_l,2,69088,34544,50,197,0.75,uniform,random,Mem100
+May  1 15:57:02,ram_l,2,69488,34744,0,140,0.15,uniform,random,Mem100
+May  1 15:57:36,ram_l,2,69488,34744,50,190,0.05,uniform,random,Mem100
+May  1 16:01:45,ram_l,2,10240,5120,0,55,0.00,uniform,random,Mem100
+May  1 16:01:57,ram_l,2,10240,5120,50,99,0.10,uniform,random,Mem100
+May  1 16:02:12,ram_l,2,20480,10240,0,70,0.05,uniform,random,Mem100
+May  1 16:02:26,ram_l,2,20480,10240,50,114,0.05,uniform,random,Mem100
+May  1 16:02:43,ram_l,2,30720,15360,0,86,0.05,uniform,random,Mem100
+May  1 16:03:00,ram_l,2,30720,15360,50,130,0.10,uniform,random,Mem100
+May  1 16:03:19,ram_l,2,40960,20480,0,103,0.05,uniform,random,Mem100
+May  1 16:03:40,ram_l,2,40960,20480,50,146,0.15,uniform,random,Mem100
+May  1 16:04:03,ram_l,2,51200,25600,0,117,0.15,uniform,random,Mem100
+May  1 16:04:28,ram_l,2,51200,25600,50,163,0.10,uniform,random,Mem100
+May  1 16:04:55,ram_l,2,61440,30720,0,130,0.10,uniform,random,Mem100
+May  1 16:05:25,ram_l,2,61440,30720,50,179,0.15,uniform,random,Mem100
+May  1 16:05:57,ram_l,2,71680,35840,0,163,0.10,uniform,random,Mem100
+May  1 16:06:32,ram_l,2,71680,35840,50,195,0.15,uniform,random,Mem100
+May  1 16:07:09,ram_l,2,81920,40960,0,155,0.05,uniform,random,Mem100
+May  1 16:07:50,ram_l,2,81920,40960,50,211,0.10,uniform,random,Mem100
+May  1 16:08:32,ram_l,2,92160,46080,0,167,0.00,uniform,random,Mem100
+May  1 16:09:20,ram_l,2,92160,46080,50,226,0.20,uniform,random,Mem100
+May  1 16:10:07,ram_l,2,102400,51200,0,178,0.05,uniform,random,Mem100
+May  1 16:11:02,ram_l,2,102400,51200,50,239,0.15,uniform,random,Mem100
+May  1 16:11:56,ram_l,2,112640,56320,0,188,0.00,uniform,random,Mem100
+May  1 16:12:59,ram_l,2,112640,56320,50,267,0.15,uniform,random,Mem100
+May  1 16:14:01,ram_l,2,122880,61440,0,214,0.05,uniform,random,Mem100
+May  1 16:15:11,ram_l,2,122880,61440,50,267,0.20,uniform,random,Mem100
+May  1 16:27:21,ram_l,7,256,128,0,44,0.16,uniform,random,Mem100
+May  1 16:27:32,ram_l,7,256,128,50,76,0.56,uniform,random,Mem100
+May  1 16:27:43,ram_l,9,256,128,0,44,0.11,uniform,random,Mem100
+May  1 16:27:54,ram_l,9,256,128,50,82,0.56,uniform,random,Mem100
+May  1 16:28:05,ram_l,15,256,128,0,58,0.17,uniform,random,Mem100
+May  1 16:28:15,ram_l,15,256,128,50,88,0.55,uniform,random,Mem100
+May  1 16:28:26,ram_l,17,256,128,0,65,11.80,uniform,random,Mem100
+May  1 16:28:37,ram_l,17,256,128,50,91,3.87,uniform,random,Mem100
+May  1 16:28:48,ram_l,31,256,128,0,121,7.95,uniform,random,Mem100
+May  1 16:28:59,ram_l,31,256,128,50,119,2.97,uniform,random,Mem100
+May  1 16:29:10,ram_l,32,256,128,0,124,0.58,uniform,random,Mem100
+May  1 16:29:21,ram_l,32,256,128,50,121,0.90,uniform,random,Mem100
+May  1 16:29:32,ram_l,33,256,128,0,129,6.28,uniform,random,Mem100
+May  1 16:29:42,ram_l,33,256,128,50,126,6.57,uniform,random,Mem100
+May  1 16:29:54,ram_l,7,2048,1024,0,44,0.21,uniform,random,Mem100
+May  1 16:30:05,ram_l,7,2048,1024,50,85,0.72,uniform,random,Mem100
+May  1 16:30:16,ram_l,9,2048,1024,0,52,0.11,uniform,random,Mem100
+May  1 16:30:27,ram_l,9,2048,1024,50,92,0.74,uniform,random,Mem100
+May  1 16:30:38,ram_l,15,2048,1024,0,76,0.21,uniform,random,Mem100
+May  1 16:30:49,ram_l,15,2048,1024,50,102,0.76,uniform,random,Mem100
+May  1 16:31:00,ram_l,17,2048,1024,0,87,17.47,uniform,random,Mem100
+May  1 16:31:12,ram_l,17,2048,1024,50,105,3.65,uniform,random,Mem100
+May  1 16:31:23,ram_l,31,2048,1024,0,152,11.09,uniform,random,Mem100
+May  1 16:31:34,ram_l,31,2048,1024,50,135,3.38,uniform,random,Mem100
+May  1 16:31:45,ram_l,32,2048,1024,0,155,0.91,uniform,random,Mem100
+May  1 16:31:56,ram_l,32,2048,1024,50,138,0.93,uniform,random,Mem100
+May  1 16:32:07,ram_l,33,2048,1024,0,160,4.68,uniform,random,Mem100
+May  1 16:32:18,ram_l,33,2048,1024,50,143,4.65,uniform,random,Mem100
+May  1 16:32:42,ram_l,7,16384,8192,0,109,0.29,uniform,random,Mem100
+May  1 16:32:55,ram_l,7,16384,8192,50,125,0.67,uniform,random,Mem100
+May  1 16:33:09,ram_l,9,16384,8192,0,139,0.36,uniform,random,Mem100
+May  1 16:33:23,ram_l,9,16384,8192,50,136,0.71,uniform,random,Mem100
+May  1 16:33:37,ram_l,15,16384,8192,0,235,0.67,uniform,random,Mem100
+May  1 16:33:51,ram_l,15,16384,8192,50,176,0.83,uniform,random,Mem100
+May  1 16:34:06,ram_l,17,16384,8192,0,272,44.64,uniform,random,Mem100
+May  1 16:34:21,ram_l,17,16384,8192,50,199,9.36,uniform,random,Mem100
+May  1 16:34:37,ram_l,31,16384,8192,0,486,30.65,uniform,random,Mem100
+May  1 16:34:53,ram_l,31,16384,8192,50,352,10.41,uniform,random,Mem100
+May  1 16:35:09,ram_l,32,16384,8192,0,499,1.13,uniform,random,Mem100
+May  1 16:35:25,ram_l,32,16384,8192,50,367,1.50,uniform,random,Mem100
+May  1 16:35:42,ram_l,33,16384,8192,0,522,20.32,uniform,random,Mem100
+May  1 16:35:58,ram_l,33,16384,8192,50,372,16.35,uniform,random,Mem100
+May  1 16:36:29,ram_l,7,32768,16384,0,190,0.52,uniform,random,Mem100
+May  1 16:36:50,ram_l,7,32768,16384,50,164,0.61,uniform,random,Mem100
+May  1 16:37:12,ram_l,9,32768,16384,0,246,0.70,uniform,random,Mem100
+May  1 16:37:34,ram_l,9,32768,16384,50,192,0.58,uniform,random,Mem100
+May  1 16:37:59,ram_l,15,32768,16384,0,434,1.15,uniform,random,Mem100
+May  1 16:38:23,ram_l,15,32768,16384,50,311,1.06,uniform,random,Mem100
+May  1 16:38:49,ram_l,17,32768,16384,0,513,81.02,uniform,random,Mem100
+May  1 16:39:14,ram_l,17,32768,16384,50,351,18.42,uniform,random,Mem100
+May  1 16:39:47,ram_l,31,32768,16384,0,961,63.32,uniform,random,Mem100
+May  1 16:40:18,ram_l,31,32768,16384,50,655,19.99,uniform,random,Mem100
+May  1 16:40:51,ram_l,32,32768,16384,0,981,1.96,uniform,random,Mem100
+May  1 16:41:22,ram_l,32,32768,16384,50,673,1.83,uniform,random,Mem100
+May  1 16:41:56,ram_l,33,32768,16384,0,1006,51.95,uniform,random,Mem100
+May  1 16:42:27,ram_l,33,32768,16384,50,695,30.17,uniform,random,Mem100
+May  1 16:43:35,ram_l,7,65536,32768,0,383,1.06,uniform,random,Mem100
+May  1 16:44:33,ram_l,7,65536,32768,50,310,0.65,uniform,random,Mem100
+May  1 16:45:40,ram_l,9,65536,32768,0,508,1.42,uniform,random,Mem100
+May  1 16:46:47,ram_l,9,65536,32768,50,392,0.96,uniform,random,Mem100
+May  1 16:48:12,ram_l,15,65536,32768,0,999,3.73,uniform,random,Mem100
+May  1 16:49:31,ram_l,15,65536,32768,50,641,1.41,uniform,random,Mem100
+May  1 16:51:02,ram_l,17,65536,32768,0,1207,232.67,uniform,random,Mem100
+May  1 16:52:26,ram_l,17,65536,32768,50,742,50.79,uniform,random,Mem100
+May  1 16:54:35,ram_l,31,65536,32768,0,2270,167.20,uniform,random,Mem100
+May  1 16:56:27,ram_l,31,65536,32768,50,1496,55.82,uniform,random,Mem100
+May  1 16:58:39,ram_l,33,73728,36864,0,2326,10.81,uniform,random,Mem100
+May  1 17:00:34,ram_l,32,65536,32768,50,1557,3.49,uniform,random,Mem100
+May  1 17:02:47,ram_l,33,65536,32768,0,2405,117.44,uniform,random,Mem100
+May  1 17:04:44,ram_l,33,65536,32768,50,1602,81.60,uniform,random,Mem100
+May  1 17:06:38,ram_l,7,98304,49152,0,577,1.94,uniform,random,Mem100
+May  1 17:08:44,ram_l,7,98304,49152,50,455,0.90,uniform,random,Mem100
+May  1 17:11:18,ram_l,9,98304,49152,0,787,0.67,uniform,random,Mem100
+May  1 17:13:49,ram_l,9,98304,49152,50,578,0.84,uniform,random,Mem100
+May  1 17:17:13,ram_l,15,98304,49152,0,1522,5.35,uniform,random,Mem100
+May  1 17:20:23,ram_l,15,98304,49152,50,986,1.43,uniform,random,Mem100
+May  1 17:23:59,ram_l,17,98304,49152,0,1823,410.48,uniform,random,Mem100
+May  1 17:27:20,ram_l,17,98304,49152,50,1135,92.85,uniform,random,Mem100
+May  1 17:32:30,ram_l,31,98304,49152,0,3454,270.58,uniform,random,Mem100
+May  1 17:36:57,ram_l,31,98304,49152,50,2289,99.91,uniform,random,Mem100
+May  1 17:42:14,ram_l,32,98304,49152,0,3548,18.68,uniform,random,Mem100
+May  1 17:46:47,ram_l,32,98304,49152,50,2375,4.16,uniform,random,Mem100
+May  1 17:52:10,ram_l,33,98304,49152,0,3669,206.29,uniform,random,Mem100
+May  1 17:56:46,ram_l,33,98304,49152,50,2444,96.03,uniform,random,Mem100
+May  1 20:36:54,ram_l,1,2048,1024,0,34,0.00,uniform,random,Mem100
+May  1 20:37:05,ram_l,3,2048,1024,0,37,0.05,uniform,random,Mem100
+May  1 20:37:16,ram_l,4,2048,1024,0,38,0.05,uniform,random,Mem100
+May  1 20:37:27,ram_l,5,2048,1024,0,40,0.05,uniform,random,Mem100
+May  1 20:37:38,ram_l,7,2048,1024,0,45,0.10,uniform,random,Mem100
+May  1 20:37:49,ram_l,8,2048,1024,0,49,0.12,uniform,random,Mem100
+May  1 20:38:00,ram_l,9,2048,1024,0,52,0.11,uniform,random,Mem100
+May  1 20:38:11,ram_l,12,2048,1024,0,64,0.10,uniform,random,Mem100
+May  1 20:38:22,ram_l,15,2048,1024,0,76,0.21,uniform,random,Mem100
+May  1 20:38:33,ram_l,16,2048,1024,0,80,0.25,uniform,random,Mem100
+May  1 20:38:44,ram_l,17,2048,1024,0,86,17.61,uniform,random,Mem100
+May  1 20:38:55,ram_l,20,2048,1024,0,105,27.09,uniform,random,Mem100
+May  1 20:39:06,ram_l,31,2048,1024,0,152,10.85,uniform,random,Mem100
+May  1 20:39:17,ram_l,32,2048,1024,0,155,0.68,uniform,random,Mem100
+May  1 20:39:28,ram_l,33,2048,1024,0,161,5.89,uniform,random,Mem100
+May  1 20:39:43,ram_l,1,12288,6144,0,52,0.00,uniform,random,Mem100
+May  1 20:39:55,ram_l,3,12288,6144,0,61,0.05,uniform,random,Mem100
+May  1 20:40:07,ram_l,4,12288,6144,0,65,0.05,uniform,random,Mem100
+May  1 20:40:19,ram_l,5,12288,6144,0,68,0.06,uniform,random,Mem100
+May  1 20:40:32,ram_l,7,12288,6144,0,74,0.10,uniform,random,Mem100
+May  1 20:40:44,ram_l,8,12288,6144,0,83,0.12,uniform,random,Mem100
+May  1 20:40:56,ram_l,9,12288,6144,0,93,0.12,uniform,random,Mem100
+May  1 20:41:09,ram_l,12,12288,6144,0,126,0.12,uniform,random,Mem100
+May  1 20:41:21,ram_l,15,12288,6144,0,156,0.12,uniform,random,Mem100
+May  1 20:41:34,ram_l,16,12288,6144,0,168,0.63,uniform,random,Mem100
+May  1 20:41:47,ram_l,17,12288,6144,0,180,29.49,uniform,random,Mem100
+May  1 20:42:00,ram_l,20,12288,6144,0,217,46.83,uniform,random,Mem100
+May  1 20:42:14,ram_l,31,12288,6144,0,329,19.60,uniform,random,Mem100
+May  1 20:42:28,ram_l,32,12288,6144,0,335,0.60,uniform,random,Mem100
+May  1 20:42:42,ram_l,33,12288,6144,0,352,18.74,uniform,random,Mem100
+May  1 20:42:58,ram_l,1,22528,11264,0,65,0.00,uniform,random,Mem100
+May  1 20:43:13,ram_l,3,22528,11264,0,80,0.05,uniform,random,Mem100
+May  1 20:43:27,ram_l,4,22528,11264,0,87,0.07,uniform,random,Mem100
+May  1 20:43:42,ram_l,5,22528,11264,0,92,0.07,uniform,random,Mem100
+May  1 20:43:57,ram_l,7,22528,11264,0,126,0.12,uniform,random,Mem100
+May  1 20:44:13,ram_l,8,22528,11264,0,144,0.20,uniform,random,Mem100
+May  1 20:44:28,ram_l,9,22528,11264,0,161,0.14,uniform,random,Mem100
+May  1 20:44:45,ram_l,12,22528,11264,0,218,0.19,uniform,random,Mem100
+May  1 20:45:01,ram_l,15,22528,11264,0,273,0.24,uniform,random,Mem100
+May  1 20:45:18,ram_l,16,22528,11264,0,292,1.51,uniform,random,Mem100
+May  1 20:45:36,ram_l,17,22528,11264,0,317,51.31,uniform,random,Mem100
+May  1 20:45:53,ram_l,20,22528,11264,0,383,84.21,uniform,random,Mem100
+May  1 20:46:14,ram_l,31,22528,11264,0,580,37.12,uniform,random,Mem100
+May  1 20:46:34,ram_l,32,22528,11264,0,592,0.82,uniform,random,Mem100
+May  1 20:46:54,ram_l,33,22528,11264,0,607,27.89,uniform,random,Mem100
+May  1 20:47:14,ram_l,1,32768,16384,0,81,0.00,uniform,random,Mem100
+May  1 20:47:31,ram_l,3,32768,16384,0,99,0.09,uniform,random,Mem100
+May  1 20:47:49,ram_l,4,32768,16384,0,109,0.15,uniform,random,Mem100
+May  1 20:48:08,ram_l,5,32768,16384,0,130,0.13,uniform,random,Mem100
+May  1 20:48:29,ram_l,7,32768,16384,0,183,0.16,uniform,random,Mem100
+May  1 20:48:50,ram_l,8,32768,16384,0,209,1.48,uniform,random,Mem100
+May  1 20:49:13,ram_l,9,32768,16384,0,236,0.25,uniform,random,Mem100
+May  1 20:49:36,ram_l,12,32768,16384,0,324,0.24,uniform,random,Mem100
+May  1 20:50:01,ram_l,15,32768,16384,0,416,0.91,uniform,random,Mem100
+May  1 20:50:26,ram_l,16,32768,16384,0,448,1.00,uniform,random,Mem100
+May  1 20:50:52,ram_l,17,32768,16384,0,486,77.75,uniform,random,Mem100
+May  1 20:51:19,ram_l,20,32768,16384,0,592,128.88,uniform,random,Mem100
+May  1 20:51:52,ram_l,31,32768,16384,0,916,60.04,uniform,random,Mem100
+May  1 20:52:25,ram_l,32,32768,16384,0,944,1.60,uniform,random,Mem100
+May  1 20:53:00,ram_l,33,32768,16384,0,974,44.68,uniform,random,Mem100
+May  1 20:53:23,ram_l,1,43008,21504,0,90,0.00,uniform,random,Mem100
+May  1 20:53:43,ram_l,3,43008,21504,0,121,0.09,uniform,random,Mem100
+May  1 20:54:06,ram_l,4,43008,21504,0,141,0.04,uniform,random,Mem100
+May  1 20:54:32,ram_l,5,43008,21504,0,175,0.12,uniform,random,Mem100
+May  1 20:55:02,ram_l,7,43008,21504,0,249,0.17,uniform,random,Mem100
+May  1 20:55:34,ram_l,8,43008,21504,0,287,0.21,uniform,random,Mem100
+May  1 20:56:07,ram_l,9,43008,21504,0,324,0.25,uniform,random,Mem100
+May  1 20:56:42,ram_l,12,43008,21504,0,456,0.37,uniform,random,Mem100
+May  1 20:57:22,ram_l,15,43008,21504,0,608,1.63,uniform,random,Mem100
+May  1 20:58:02,ram_l,16,43008,21504,0,664,1.83,uniform,random,Mem100
+May  1 20:58:44,ram_l,17,43008,21504,0,723,117.95,uniform,random,Mem100
+May  1 20:59:28,ram_l,20,43008,21504,0,894,200.68,uniform,random,Mem100
+May  1 21:00:24,ram_l,31,43008,21504,0,1396,95.33,uniform,random,Mem100
+May  1 21:01:22,ram_l,32,43008,21504,0,1437,3.68,uniform,random,Mem100
+May  1 21:02:20,ram_l,33,43008,21504,0,1481,71.02,uniform,random,Mem100
+May  1 21:02:48,ram_l,1,53248,26624,0,100,0.00,uniform,random,Mem100
+May  1 21:03:12,ram_l,3,53248,26624,0,137,0.09,uniform,random,Mem100
+May  1 21:03:42,ram_l,4,53248,26624,0,173,0.13,uniform,random,Mem100
+May  1 21:04:16,ram_l,5,53248,26624,0,216,0.20,uniform,random,Mem100
+May  1 21:04:57,ram_l,7,53248,26624,0,309,0.26,uniform,random,Mem100
+May  1 21:05:42,ram_l,8,53248,26624,0,354,0.35,uniform,random,Mem100
+May  1 21:06:29,ram_l,9,53248,26624,0,408,0.34,uniform,random,Mem100
+May  1 21:07:21,ram_l,12,53248,26624,0,584,0.50,uniform,random,Mem100
+May  1 21:08:20,ram_l,15,53248,26624,0,790,0.64,uniform,random,Mem100
+May  1 21:09:20,ram_l,16,53248,26624,0,862,2.27,uniform,random,Mem100
+May  1 21:10:22,ram_l,17,53248,26624,0,943,165.78,uniform,random,Mem100
+May  1 21:11:28,ram_l,20,53248,26624,0,1166,278.17,uniform,random,Mem100
+May  1 21:12:54,ram_l,31,53248,26624,0,1807,127.51,uniform,random,Mem100
+May  1 21:14:22,ram_l,32,53248,26624,0,1855,4.95,uniform,random,Mem100
+May  1 21:15:52,ram_l,33,53248,26624,0,1911,58.33,uniform,random,Mem100
+May  1 21:16:24,ram_l,1,63488,31744,0,110,0.00,uniform,random,Mem100
+May  1 21:16:53,ram_l,3,63488,31744,0,153,0.12,uniform,random,Mem100
+May  1 21:17:30,ram_l,4,63488,31744,0,204,0.17,uniform,random,Mem100
+May  1 21:18:14,ram_l,5,63488,31744,0,255,0.20,uniform,random,Mem100
+May  1 21:19:11,ram_l,7,63488,31744,0,367,0.34,uniform,random,Mem100
+May  1 21:20:12,ram_l,8,63488,31744,0,428,0.24,uniform,random,Mem100
+May  1 21:21:17,ram_l,9,63488,31744,0,490,0.35,uniform,random,Mem100
+May  1 21:22:32,ram_l,12,63488,31744,0,712,0.67,uniform,random,Mem100
+May  1 21:23:55,ram_l,15,63488,31744,0,965,3.47,uniform,random,Mem100
+May  1 21:25:21,ram_l,16,63488,31744,0,1041,3.15,uniform,random,Mem100
+May  1 21:26:49,ram_l,17,63488,31744,0,1140,205.52,uniform,random,Mem100
+May  1 21:28:23,ram_l,20,63488,31744,0,1409,340.62,uniform,random,Mem100
+May  1 21:30:26,ram_l,31,63488,31744,0,2183,153.24,uniform,random,Mem100
+May  1 21:32:33,ram_l,32,63488,31744,0,2246,9.27,uniform,random,Mem100
+May  1 21:34:43,ram_l,33,63488,31744,0,2321,116.59,uniform,random,Mem100
+May  1 21:35:20,ram_l,1,73728,36864,0,120,0.00,uniform,random,Mem100
+May  1 21:35:55,ram_l,3,73728,36864,0,177,0.12,uniform,random,Mem100
+May  1 21:36:41,ram_l,4,73728,36864,0,236,0.13,uniform,random,Mem100
+May  1 21:37:38,ram_l,5,73728,36864,0,297,0.21,uniform,random,Mem100
+May  1 21:38:52,ram_l,7,73728,36864,0,430,0.38,uniform,random,Mem100
+May  1 21:40:15,ram_l,8,73728,36864,0,501,0.40,uniform,random,Mem100
+May  1 21:41:43,ram_l,9,73728,36864,0,579,0.51,uniform,random,Mem100
+May  1 21:43:25,ram_l,12,73728,36864,0,849,0.70,uniform,random,Mem100
+May  1 21:45:20,ram_l,15,73728,36864,0,1141,0.91,uniform,random,Mem100
+May  1 21:47:18,ram_l,16,73728,36864,0,1235,3.79,uniform,random,Mem100
+May  1 21:49:20,ram_l,17,73728,36864,0,1357,276.70,uniform,random,Mem100
+May  1 21:51:29,ram_l,20,73728,36864,0,1681,447.52,uniform,random,Mem100
+May  1 21:54:21,ram_l,31,73728,36864,0,2575,191.83,uniform,random,Mem100
+May  1 21:57:15,ram_l,32,73728,36864,0,2618,9.77,uniform,random,Mem100
+May  1 22:00:14,ram_l,33,73728,36864,0,2731,105.29,uniform,random,Mem100

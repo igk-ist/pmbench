@@ -23,7 +23,7 @@ DTLB: 4 entries for 1GB, 4-way
 DTLB: 64 entries for 4KB, 4-way
 ITLB: 8 entries for 2MB or 4MB, full
 ITLB: 64 entries for 4KB, 8-way
-STLB: 1536 entries for 4KB and 2MB, 6-way, shared 2nd level. Also 16 entries for 1GB, 4-way                                                                                          
+STLB: 1536 entries for 4KB and 2MB, 6-way, shared 2nd level. Also 16 entries for 1GB, 4-way
  -- Cache info --
 DCACHE: lvl 1, 32 KB, sets:64, linesz:64, part:1, ways:8
 ICACHE: lvl 1, 32 KB, sets:64, linesz:64, part:1, ways:8

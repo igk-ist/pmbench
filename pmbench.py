@@ -34,11 +34,12 @@ CACHE: lvl 3, 22528 KB, sets:32768, linesz:64, part:1, ways:11
 
 #  Baseline Latencies
 
-| Mode        | Read latency  | Write Latency  | Read-Write Latency |
-| ----------- | ------------- | -------------- | ------------------ |
-| RAM (local) | 39ns (slowly degrades) | 32ns  | 70 |
-| PM (local)  | 39ns (slowly degrades) | 179ns / 1us (3+ threads)| 244 |
-
+```
+| Mode        | Read latency           | Write Latency           | Read-Write Latency |
+| ----------- | -----------------------| ----------------------- | ------------------ |
+| RAM (local) | 39ns (slowly degrades) |          32ns           |       70           |
+| PM (local)  | 39ns (slowly degrades) | 179ns / 1us (3+ threads)|       244          |
+```
 
 """
 

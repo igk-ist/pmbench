@@ -1,4 +1,4 @@
-date,pool,threads,sz,ws,rw_ratio,ltc,ltc_d,offset,pattern,mode
+date,pool,threads,sz,ws,rw_ratio,ltc,ltc_d,pattern,offset,mode
 Apr 27 09:41:01,fsdax,1,256,128,0,181,0.00,uniform,random,App
 Apr 27 09:41:12,ram_l,1,256,128,0,32,0.00,uniform,random,App
 Apr 27 09:41:23,ram_r,1,256,128,0,38,0.00,uniform,random,App

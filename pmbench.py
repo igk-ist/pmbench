@@ -12,7 +12,7 @@ $ sudo ipmctl show -topology
  N/A    | DDR4                        | 16.000 GiB  | 0x0042    | DIMM_P1_G0
  N/A    | DDR4                        | 16.000 GiB  | 0x0046    | DIMM_P1_H0
  ```
- 
+---- 
  
  ```
  ------------- Machine information -------------
@@ -30,6 +30,16 @@ ICACHE: lvl 1, 32 KB, sets:64, linesz:64, part:1, ways:8
 CACHE: lvl 2, 1024 KB, sets:1024, linesz:64, part:1, ways:16
 CACHE: lvl 3, 22528 KB, sets:32768, linesz:64, part:1, ways:11
 ```
+----
+
+#  Baseline Latencies
+
+| Mode        | Read latency  | Write Latency  | Read-Write Latency |
+| ----------- | ------------- | -------------- | ------------------ |
+| RAM (local) | 39ns (slowly degrades) | 32ns  | 70 |
+| PM (local)  | 39ns (slowly degrades) | 179ns / 1us (3+ threads)| 244 |
+
+
 """
 
 # %%
@@ -44,7 +54,16 @@ def pool(name, df):
      return df[df['pool'] == name].drop(columns=["pool"])
 
 def rw_ratio(ratio, df):
-     return df[df['rw_ratio'] == ratio].drop(columns=["rw_ratio"])
+    if type(ratio) == str:
+        if   ratio == 'wo' : v = 0
+        elif ratio == 'rww': v = 33
+        elif ratio == 'rw' : v = 50
+        elif ratio == 'rrw': v = 66
+        elif ratio == 'ro' : v = 100
+        else: raise Exception('Unknown ratio "{}"'.format(ratio))
+    else:
+        v = ratio
+    return df[df['rw_ratio'] == v].drop(columns=["rw_ratio"])
 
 def ws(v, df):
     return df[df['ws'] == v].drop(columns=['ws'])
@@ -52,27 +71,12 @@ def ws(v, df):
 def threads(i, df):
     return df[df['threads'] == i].drop(columns=['threads'])
 
-def merge_ratios(fd, ratios=[
-            (100, 'ro'),
-            (66, 'rrw'),
-            (50, 'rw'),
-            (33, 'rww'),
-            (0, 'wo')]):
+def merge_ratios(fd, ratios=['ro','rrw', 'rw', 'rww', 'wo']):
     m = fd["threads"].drop_duplicates()
-    for r, n in ratios:
-        t = rw_ratio(r, fd).rename(columns={'ltc':n,'ltc_d':n+'_d'})
+    for n in ratios:
+        t = rw_ratio(n, fd).rename(columns={'ltc':n,'ltc_d':n+'_d'})
         m = pd.merge(m, t)
     return m
-
-def plot_ratios(fd, axs):
-    fd = merge_ratios(fd)
-    labels=['ro','rrw','rw','rww','wo']
-    fd.plot(
-        ax=axs,
-        x='threads',
-        ylabel='latency (ns)',
-        y=labels,
-        yerr=concat([x + '_d' for x in labels], fd))
 
 # %%
 data = pd.read_csv('pmbench.csv', delimiter = ",")
@@ -92,8 +96,8 @@ Several key points:
 
 # %%
 apps = data[
-    (data["offset"] == "uniform") &
-    (data['pattern'] == "random") &
+    (data["offset"] == "random") &
+    (data['pattern'] == "uniform") &
     (data['mode'] == "App") &
     True].drop(columns=["offset","pattern","mode","sz","ws","date"])
 
@@ -113,7 +117,27 @@ for v, n, i in [
         (apps_ram_r, "Apps RAM remote", 6)]:
     ax = fig.add_subplot(2, 3, i)
     ax.set_title(n)
-    plot_ratios(v, ax)
+    fd = merge_ratios(v)
+    labels=['ro','rrw','rw','rww','wo']
+    fd.plot(
+        ax=ax,
+        x='threads',
+        ylabel='latency (ns)',
+        y=labels,
+        yerr=concat([x + '_d' for x in labels], fd))
+    #fd.drop(columns=[x + '_d' for x in labels])
+    #ax.table([[f for f in row] for row in fd.iloc])
+
+# %%
+merge_ratios(apps_ram_l, ['ro', 'wo', 'rw'])
+
+# %%
+merge_ratios(apps_pm_l, ['ro', 'wo', 'rw'])
+
+# %%
+"""
+## Block size matters
+"""
 
 # %%
 """
@@ -186,7 +210,6 @@ Next one tries to nail down edge of performance drop with growing working set.
 For some reason I can't see this drop for one thread run.
 
 Right plot witnesess 4Gb threshold visible when we switch thread number.
-
 """
 
 # %%
